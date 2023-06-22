@@ -1,0 +1,440 @@
+[23-Jul-2021 09:11:55 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vgmci_resa.Parametre' doesn't exist' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:42
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(42): PDO->query('SELECT * FROM P...')
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 42
+[23-Jul-2021 09:12:01 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vgmci_resa.Parametre' doesn't exist' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:42
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(42): PDO->query('SELECT * FROM P...')
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 42
+[23-Jul-2021 09:12:02 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vgmci_resa.Parametre' doesn't exist' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:42
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(42): PDO->query('SELECT * FROM P...')
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 42
+[23-Jul-2021 09:12:02 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vgmci_resa.Parametre' doesn't exist' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:42
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(42): PDO->query('SELECT * FROM P...')
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 42
+[23-Jul-2021 09:12:02 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vgmci_resa.Parametre' doesn't exist' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:42
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(42): PDO->query('SELECT * FROM P...')
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 42
+[23-Jul-2021 09:12:02 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vgmci_resa.Parametre' doesn't exist' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:42
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(42): PDO->query('SELECT * FROM P...')
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 42
+[23-Jul-2021 09:12:05 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vgmci_resa.Parametre' doesn't exist' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:42
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(42): PDO->query('SELECT * FROM P...')
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 42
+[23-Jul-2021 09:12:05 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vgmci_resa.Parametre' doesn't exist' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:42
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(42): PDO->query('SELECT * FROM P...')
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 42
+[23-Jul-2021 09:12:05 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vgmci_resa.Parametre' doesn't exist' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:42
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(42): PDO->query('SELECT * FROM P...')
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 42
+[23-Jul-2021 09:12:05 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vgmci_resa.Parametre' doesn't exist' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:42
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(42): PDO->query('SELECT * FROM P...')
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 42
+[23-Jul-2021 09:12:05 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vgmci_resa.Parametre' doesn't exist' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:42
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(42): PDO->query('SELECT * FROM P...')
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 42
+[23-Jul-2021 09:12:05 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vgmci_resa.Parametre' doesn't exist' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:42
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(42): PDO->query('SELECT * FROM P...')
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 42
+[23-Jul-2021 09:12:05 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vgmci_resa.Parametre' doesn't exist' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:42
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(42): PDO->query('SELECT * FROM P...')
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 42
+[23-Jul-2021 09:12:29 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vgmci_resa.Parametre' doesn't exist' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:42
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(42): PDO->query('SELECT * FROM P...')
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 42
+[23-Jul-2021 09:12:36 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vgmci_resa.Parametre' doesn't exist' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:42
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(42): PDO->query('SELECT * FROM P...')
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 42
+[23-Jul-2021 09:20:34 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vgmci_resa.Parametre' doesn't exist' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:42
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(42): PDO->query('SELECT * FROM P...')
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 42
+[23-Jul-2021 09:20:36 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vgmci_resa.Parametre' doesn't exist' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:42
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(42): PDO->query('SELECT * FROM P...')
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 42
+[23-Jul-2021 09:20:36 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vgmci_resa.Parametre' doesn't exist' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:42
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(42): PDO->query('SELECT * FROM P...')
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 42
+[24-Sep-2021 11:01:32 Africa/Abidjan] PHP Fatal error:  Call to a member function prepare() on null in /home/pesagecci/public_html/reservation_test/models/offline/First_connect_base.php on line 27
+[24-Sep-2021 11:03:31 Africa/Abidjan] PHP Fatal error:  Call to a member function prepare() on null in /home/pesagecci/public_html/reservation_test/models/offline/First_connect_base.php on line 27
+[24-Sep-2021 11:05:13 Africa/Abidjan] PHP Fatal error:  Call to a member function prepare() on null in /home/pesagecci/public_html/reservation_test/models/offline/First_connect_base.php on line 27
+[18-Nov-2021 16:18:44 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[18-Nov-2021 16:18:46 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[18-Nov-2021 16:18:49 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[20-Jan-2022 16:38:39 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[20-Jan-2022 16:38:42 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[20-Jan-2022 16:38:45 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[01-Mar-2022 19:15:07 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/offline/First_connect_base.php:45
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/offline/First_connect_base.php(45): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/offline/First_connect_base.php on line 45
+[16-Jun-2022 15:52:20 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:52:23 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:52:24 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:52:26 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:52:30 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:55:37 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:55:48 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:56:04 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:56:43 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:56:45 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:56:47 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:56:55 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:56:55 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:04 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:07 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:09 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:11 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:12 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:13 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:13 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:14 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:14 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:14 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:15 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:15 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:15 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:16 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:17 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:19 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:22 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:24 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:31 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:31 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:34 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:36 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:50 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:54 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:56 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Deconnection_model.php(9): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:56 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:59:12 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:59:13 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:59:14 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:59:16 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:59:16 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:59:18 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:59:28 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Authentication_model.php(5): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[17-Jun-2022 15:34:43 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[17-Jun-2022 15:34:45 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/offline/Last_action.php(7): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13

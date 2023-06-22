@@ -1,0 +1,684 @@
+[23-Aug-2021 08:22:22 Africa/Abidjan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pesagecci/public_html/reservation_test/models/Get_quartiers_model.php:19) in /home/pesagecci/public_html/reservation_test/models/Get_quartiers_model.php on line 46
+[09-Sep-2021 15:48:01 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COORDON_GPS='',
+				SITE_AFFECTATION=84,CONTACT_PERSO='0709488746' WHERE IDENTI' at line 6' in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php:100
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(100): PDO->exec('UPDATE Inspecte...')
+#1 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(181): Modification(Object(PDO), '1', '90')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php on line 100
+[09-Sep-2021 15:48:27 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COORDON_GPS='',
+				SITE_AFFECTATION=84,CONTACT_PERSO='0709488746' WHERE IDENTI' at line 6' in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php:100
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(100): PDO->exec('UPDATE Inspecte...')
+#1 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(181): Modification(Object(PDO), '1', '90')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php on line 100
+[09-Sep-2021 15:50:57 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COORDON_GPS='',
+				SITE_AFFECTATION=84,CONTACT_PERSO='0709488746' WHERE IDENTI' at line 6' in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php:100
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(100): PDO->exec('UPDATE Inspecte...')
+#1 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(181): Modification(Object(PDO), '1', '90')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php on line 100
+[09-Sep-2021 15:51:02 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COORDON_GPS='',
+				SITE_AFFECTATION=84,CONTACT_PERSO='0709488746' WHERE IDENTI' at line 6' in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php:100
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(100): PDO->exec('UPDATE Inspecte...')
+#1 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(181): Modification(Object(PDO), '1', '90')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php on line 100
+[09-Sep-2021 16:02:59 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COORDON_GPS='',
+				SITE_AFFECTATION=84,CONTACT_PERSO='0709488746' WHERE IDENTI' at line 6' in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php:100
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(100): PDO->exec('UPDATE Inspecte...')
+#1 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(181): Modification(Object(PDO), '1', '90')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php on line 100
+[09-Sep-2021 16:27:01 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COORDON_GPS='',
+				SITE_AFFECTATION=84,CONTACT_PERSO='0709488746' WHERE IDENTI' at line 6' in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php:100
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(100): PDO->exec('UPDATE Inspecte...')
+#1 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(181): Modification(Object(PDO), '2', '5')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php on line 100
+[09-Sep-2021 16:27:29 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COORDON_GPS='',
+				SITE_AFFECTATION=84,CONTACT_PERSO='0709488746' WHERE IDENTI' at line 6' in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php:100
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(100): PDO->exec('UPDATE Inspecte...')
+#1 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(181): Modification(Object(PDO), '2', '5')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php on line 100
+[09-Sep-2021 16:35:11 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COORDON_GPS='',
+				SITE_AFFECTATION=84,CONTACT_PERSO='0709488746' WHERE IDENTI' at line 6' in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php:100
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(100): PDO->exec('UPDATE Inspecte...')
+#1 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(181): Modification(Object(PDO), '2', '5')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php on line 100
+[09-Sep-2021 16:40:55 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COORDON_GPS='',
+				SITE_AFFECTATION=84,CONTACT_PERSO='0709488746' WHERE IDENTI' at line 6' in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php:100
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(100): PDO->exec('UPDATE Inspecte...')
+#1 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(181): Modification(Object(PDO), '2', '5')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php on line 100
+[09-Sep-2021 16:42:43 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COORDON_GPS='',
+				SITE_AFFECTATION=84,CONTACT_PERSO='0709488746' WHERE IDENTI' at line 6' in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php:100
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(100): PDO->exec('UPDATE Inspecte...')
+#1 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(181): Modification(Object(PDO), '2', '5')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php on line 100
+[09-Sep-2021 16:44:59 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ADRESSE_GEO='S/P BOLLORE',COORDON_GPS='',
+			NOM_RESPO='Mme DARRA',FONCTION_RES' at line 3' in /home/pesagecci/public_html/reservation_test/models/Process_pont_model.php:65
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Process_pont_model.php(65): PDO->exec('UPDATE Site SET...')
+#1 /home/pesagecci/public_html/reservation_test/models/Process_pont_model.php(124): Modification(Object(PDO), '2', '5')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Process_pont_model.php on line 65
+[09-Sep-2021 16:46:25 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COORDON_GPS='',
+				SITE_AFFECTATION=84,CONTACT_PERSO='' WHERE IDENTIFIANT='133' at line 6' in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php:100
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(100): PDO->exec('UPDATE Inspecte...')
+#1 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(181): Modification(Object(PDO), '2', '5')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php on line 100
+[09-Sep-2021 16:53:42 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COORDON_GPS='',
+				SITE_AFFECTATION=84,CONTACT_PERSO='' WHERE IDENTIFIANT='133' at line 6' in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php:100
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(100): PDO->exec('UPDATE Inspecte...')
+#1 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(181): Modification(Object(PDO), '2', '5')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php on line 100
+[09-Sep-2021 17:03:42 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COORDON_GPS='',
+				SITE_AFFECTATION=84,CONTACT_PERSO='' WHERE IDENTIFIANT='133' at line 6' in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php:100
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(100): PDO->exec('UPDATE Inspecte...')
+#1 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(181): Modification(Object(PDO), '2', '5')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php on line 100
+[09-Sep-2021 18:34:05 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COORDON_GPS='',
+				SITE_AFFECTATION=84,CONTACT_PERSO='' WHERE IDENTIFIANT='133' at line 6' in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php:100
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(100): PDO->exec('UPDATE Inspecte...')
+#1 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(181): Modification(Object(PDO), '2', '5')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php on line 100
+[09-Sep-2021 18:35:32 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'COORDON_GPS='',
+				SITE_AFFECTATION=84,CONTACT_PERSO='' WHERE IDENTIFIANT='133' at line 6' in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php:101
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(101): PDO->exec('UPDATE Inspecte...')
+#1 /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php(181): Modification(Object(PDO), '2', '5')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Process_inspecteur_model.php on line 101
+[01-Oct-2021 14:40:23 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY R.DATE_RESERVATION,R.PLAGE_HORAIRE' at line 1' in /home/pesagecci/public_html/reservation_test/functions/Taux_function.php:40
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Taux_function.php(40): PDO->query('SELECT R.* FROM...')
+#1 /home/pesagecci/public_html/reservation_test/models/Taux_model.php(21): taux(Object(PDO), '09', '2021', '0', NULL)
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Taux_function.php on line 40
+[14-Oct-2021 14:39:35 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/profil.php:104
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/profil.php(104): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/profil.php on line 104
+[18-Nov-2021 16:18:44 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Get_inspector_affectations_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[18-Nov-2021 16:18:46 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Set_affectation_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[09-Dec-2021 16:14:18 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/functions/Cancel_reject_function.php(17): logger(Object(PDO), NULL, 5, 2, '76411', '')
+#2 /home/pesagecci/public_html/reservation_test/models/Cancel_reject_model.php(21): CancelReject(Object(PDO), '5', '82891', '1', '', NULL, NULL)
+#3 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[09-Dec-2021 16:14:26 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/functions/Cancel_reject_function.php(17): logger(Object(PDO), NULL, 5, 2, '76411', '')
+#2 /home/pesagecci/public_html/reservation_test/models/Cancel_reject_model.php(21): CancelReject(Object(PDO), '5', '82891', '1', '', NULL, NULL)
+#3 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[09-Dec-2021 16:14:33 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php(96): logger(Object(PDO), NULL, 3, 2, '76465', '')
+#2 /home/pesagecci/public_html/reservation_test/models/Set_affectation_model.php(19): SetAffectation(Object(PDO), 1, 1, '2', '33', '72134', '1', '', NULL, NULL)
+#3 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[14-Dec-2021 14:38:47 Africa/Abidjan] PHP Fatal error:  Call to undefined function EnvoiSMS() in /home/pesagecci/public_html/reservation_test/models/envoi_sms.php on line 5
+[14-Dec-2021 14:44:51 Africa/Abidjan] PHP Fatal error:  Call to undefined function EnvoiSMS() in /home/pesagecci/public_html/reservation_test/models/envoi_sms.php on line 5
+[14-Dec-2021 15:38:22 Africa/Abidjan] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/pesagecci/public_html/reservation_test/functions/EnvoiSMS_function.php on line 3
+[16-Dec-2021 16:18:45 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/pesagecci/public_html/reservation_test/models/Get_reservation_details_model.php:25
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Get_reservation_details_model.php(25): PDO->query('SELECT Reservat...')
+#1 /home/pesagecci/public_html/reservation_test/models/Get_reservation_details_model.php(106): GetReservationDetails(Object(PDO), NULL, NULL, NULL, NULL)
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Get_reservation_details_model.php on line 25
+[03-Jan-2022 08:47:12 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/profil.php:104
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/profil.php(104): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/profil.php on line 104
+[13-Jan-2022 11:34:20 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:20
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 20
+[13-Jan-2022 11:34:30 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:20
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 20
+[13-Jan-2022 11:34:34 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:20
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 20
+[13-Jan-2022 11:34:43 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:20
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 20
+[13-Jan-2022 11:34:50 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:20
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 20
+[20-Jan-2022 16:38:39 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Get_inspector_affectations_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[20-Jan-2022 18:05:29 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php(96): logger(Object(PDO), NULL, 3, 2, '81200', '')
+#2 /home/pesagecci/public_html/reservation_test/models/Set_affectation_model.php(19): SetAffectation(Object(PDO), 1, 1, '2', '83', '86062', '1', '', NULL, NULL)
+#3 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[20-Jan-2022 18:05:57 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/functions/Cancel_reject_function.php(17): logger(Object(PDO), NULL, 5, 2, '81165', '')
+#2 /home/pesagecci/public_html/reservation_test/models/Cancel_reject_model.php(21): CancelReject(Object(PDO), '5', '86090', '1', '', NULL, NULL)
+#3 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[20-Jan-2022 18:06:05 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php(96): logger(Object(PDO), NULL, 3, 2, '81201', '')
+#2 /home/pesagecci/public_html/reservation_test/models/Set_affectation_model.php(19): SetAffectation(Object(PDO), 1, 1, '2', '60', '86070', '1', '', NULL, NULL)
+#3 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[20-Jan-2022 18:06:08 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/functions/Cancel_reject_function.php(17): logger(Object(PDO), NULL, 5, 2, '81165', '')
+#2 /home/pesagecci/public_html/reservation_test/models/Cancel_reject_model.php(21): CancelReject(Object(PDO), '5', '86090', '1', '', NULL, NULL)
+#3 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[20-Jan-2022 18:06:48 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/functions/Cancel_reject_function.php(17): logger(Object(PDO), NULL, 5, 2, '81124', '')
+#2 /home/pesagecci/public_html/reservation_test/models/Cancel_reject_model.php(21): CancelReject(Object(PDO), '5', '82722', '1', '', NULL, NULL)
+#3 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[03-Feb-2022 15:28:47 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:20
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 20
+[03-Feb-2022 15:28:49 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:20
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 20
+[11-Feb-2022 08:59:42 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:00:30 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:00:35 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:00:39 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:00:43 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:00:46 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:00:51 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:00:57 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:01:03 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:01:10 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:01:40 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:01:45 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:01:51 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:02:17 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:02:27 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:03:11 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:10:56 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:12:05 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:12:21 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:14:31 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 09:21:33 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[11-Feb-2022 16:30:12 Africa/Abidjan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php:106) in /home/pesagecci/public_html/reservation_test/models/Set_affectation_model.php on line 22
+[11-Feb-2022 16:30:19 Africa/Abidjan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php:106) in /home/pesagecci/public_html/reservation_test/models/Set_affectation_model.php on line 22
+[11-Feb-2022 16:30:22 Africa/Abidjan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php:106) in /home/pesagecci/public_html/reservation_test/models/Set_affectation_model.php on line 22
+[11-Feb-2022 16:31:01 Africa/Abidjan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php:106) in /home/pesagecci/public_html/reservation_test/models/Set_affectation_model.php on line 22
+[11-Feb-2022 16:31:08 Africa/Abidjan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php:106) in /home/pesagecci/public_html/reservation_test/models/Set_affectation_model.php on line 22
+[11-Feb-2022 09:33:06 America/Denver] PHP Parse error:  syntax error, unexpected '>' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 158
+[18-Feb-2022 14:55:00 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,COERCIBLE) and (latin1_swedish_ci,NUMERIC) for operation '='' in /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php:84
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php(84): PDO->query('SELECT S.LIBELL...')
+#1 /home/pesagecci/public_html/reservation_test/models/Affect_except_model.php(59): SetAffectation(Object(PDO), 1, 1, 2, '118', '88503', 0, '', '1', '2')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php on line 84
+[18-Feb-2022 15:06:59 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,COERCIBLE) and (latin1_swedish_ci,NUMERIC) for operation '='' in /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php:84
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php(84): PDO->query('SELECT S.LIBELL...')
+#1 /home/pesagecci/public_html/reservation_test/models/Affect_except_model.php(59): SetAffectation(Object(PDO), 1, 1, 2, '118', '88503', 0, '', '1', '90')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php on line 84
+[18-Feb-2022 15:09:05 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,COERCIBLE) and (latin1_swedish_ci,NUMERIC) for operation '='' in /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php:84
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php(84): PDO->query('SELECT S.LIBELL...')
+#1 /home/pesagecci/public_html/reservation_test/models/Affect_except_model.php(59): SetAffectation(Object(PDO), 1, 1, 2, '118', '88503', 0, '', '1', '90')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php on line 84
+[18-Feb-2022 15:11:08 Africa/Abidjan] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php on line 78
+[18-Feb-2022 15:12:58 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,COERCIBLE) and (latin1_swedish_ci,NUMERIC) for operation '='' in /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php:84
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php(84): PDO->query('SELECT S.LIBELL...')
+#1 /home/pesagecci/public_html/reservation_test/models/Affect_except_model.php(59): SetAffectation(Object(PDO), 1, 1, 2, '118', '88503', 0, '', '1', '90')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php on line 84
+[18-Feb-2022 15:13:02 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,COERCIBLE) and (latin1_swedish_ci,NUMERIC) for operation '='' in /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php:84
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php(84): PDO->query('SELECT S.LIBELL...')
+#1 /home/pesagecci/public_html/reservation_test/models/Affect_except_model.php(59): SetAffectation(Object(PDO), 1, 1, 2, '118', '88503', 0, '', '1', '90')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php on line 84
+[18-Feb-2022 15:14:04 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,COERCIBLE) and (latin1_swedish_ci,NUMERIC) for operation '='' in /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php:84
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php(84): PDO->query('SELECT S.LIBELL...')
+#1 /home/pesagecci/public_html/reservation_test/models/Affect_except_model.php(59): SetAffectation(Object(PDO), 1, 1, 2, '118', '88503', 0, '', '1', '90')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php on line 84
+[18-Feb-2022 15:14:30 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,COERCIBLE) and (latin1_swedish_ci,NUMERIC) for operation '='' in /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php:84
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php(84): PDO->query('SELECT S.LIBELL...')
+#1 /home/pesagecci/public_html/reservation_test/models/Affect_except_model.php(59): SetAffectation(Object(PDO), 1, 1, 2, '118', '88503', 0, '', '1', '90')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php on line 84
+[22-Feb-2022 10:55:29 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,COERCIBLE) and (latin1_swedish_ci,NUMERIC) for operation '='' in /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php:84
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php(84): PDO->query('SELECT S.LIBELL...')
+#1 /home/pesagecci/public_html/reservation_test/models/Affect_except_model.php(59): SetAffectation(Object(PDO), 1, 1, 2, '119', '89546', 0, '', '1', '2')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php on line 84
+[22-Feb-2022 11:20:33 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,COERCIBLE) and (latin1_swedish_ci,NUMERIC) for operation '='' in /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php:85
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php(85): PDO->query('SELECT S.LIBELL...')
+#1 /home/pesagecci/public_html/reservation_test/models/Affect_except_model.php(59): SetAffectation(Object(PDO), 1, 1, 2, '119', '89546', 0, '', '1', '2')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php on line 85
+[24-Mar-2022 08:06:51 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:20
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 20
+[24-Mar-2022 08:07:01 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:20
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 20
+[14-Apr-2022 16:56:33 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/functions/Cancel_reject_function.php(17): logger(Object(PDO), NULL, 5, 2, '92199', '')
+#2 /home/pesagecci/public_html/reservation_test/models/Cancel_reject_model.php(21): CancelReject(Object(PDO), '5', '94285', '1', '', NULL, NULL)
+#3 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[04-May-2022 15:46:39 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY R.DATE_RESERVATION,R.PLAGE_HORAIRE' at line 1' in /home/pesagecci/public_html/reservation_test/functions/Taux_function.php:40
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Taux_function.php(40): PDO->query('SELECT R.* FROM...')
+#1 /home/pesagecci/public_html/reservation_test/models/Taux_model.php(21): taux(Object(PDO), '04', '2022', '0', NULL)
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Taux_function.php on line 40
+[31-May-2022 19:14:36 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:21
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(21): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 21
+[31-May-2022 19:14:42 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:21
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(21): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 21
+[16-Jun-2022 15:52:20 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Get_inspector_list_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:52:24 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Get_inspector_list_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:55:48 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Get_inspector_affectations_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:55:57 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Get_reservations_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:56:08 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Taux_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:56:13 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Taux_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:56:22 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Taux_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:56:25 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Taux_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:56:34 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Taux_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:56:39 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Taux_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:56:48 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Taux_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:56:54 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Taux_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:56:59 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Taux_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:04 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Get_inspector_list_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:09 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Get_inspector_list_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:17 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Get_inspector_list_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:58:22 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Get_inspector_list_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:59:12 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Get_inspector_list_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[16-Jun-2022 15:59:16 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Get_inspector_list_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[17-Jun-2022 15:34:43 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Get_inspector_affectations_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[17-Jun-2022 15:34:45 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/pesagecci/public_html/reservation_test/config/Connexion.php:13
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/config/Connexion.php(13): PDO->__construct('mysql:host=loca...', 'root', 'NRtPEvqJYXtPE5g...', Array)
+#1 /home/pesagecci/public_html/reservation_test/models/Set_affectation_model.php(12): include('/home/pesagecci...')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/config/Connexion.php on line 13
+[21-Jul-2022 08:46:26 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE IDENTIFIANT='75'' at line 3' in /home/pesagecci/public_html/reservation_test/models/Process_user_model.php:82
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Process_user_model.php(82): PDO->exec('UPDATE User SET...')
+#1 /home/pesagecci/public_html/reservation_test/models/Process_user_model.php(132): Modification(Object(PDO), NULL, NULL)
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Process_user_model.php on line 82
+[21-Jul-2022 04:33:47 America/Denver] PHP Parse error:  syntax error, unexpected '$bout' (T_VARIABLE) in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 121
+[21-Jul-2022 04:34:05 America/Denver] PHP Parse error:  syntax error, unexpected '$bout' (T_VARIABLE) in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 121
+[21-Jul-2022 04:34:58 America/Denver] PHP Parse error:  syntax error, unexpected '$bout' (T_VARIABLE) in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 131
+[25-Aug-2022 13:40:39 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:22
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 22
+[25-Aug-2022 13:43:28 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:22
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 22
+[28-Aug-2022 11:47:47 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Affect_except_model.php:38
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Affect_except_model.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Affect_except_model.php on line 38
+[28-Aug-2022 11:47:55 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Affect_except_model.php:38
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Affect_except_model.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Affect_except_model.php on line 38
+[14-Sep-2022 09:09:11 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:22
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 22
+[14-Sep-2022 09:09:40 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:22
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 22
+[05-Oct-2022 09:52:31 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:22
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 22
+[05-Oct-2022 09:52:39 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:22
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 22
+[05-Oct-2022 09:52:48 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:22
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 22
+[05-Oct-2022 09:53:15 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:22
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 22
+[12-Oct-2022 13:44:04 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:22
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 22
+[12-Oct-2022 13:44:18 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'USER' cannot be null' in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php:22
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php on line 22
+[21-Oct-2022 16:57:43 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY R.DATE_RESERVATION,R.PLAGE_HORAIRE' at line 1' in /home/pesagecci/public_html/reservation_test/functions/Taux_function.php:40
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Taux_function.php(40): PDO->query('SELECT R.* FROM...')
+#1 /home/pesagecci/public_html/reservation_test/models/Taux_model.php(21): taux(Object(PDO), '09', '2022', '0', NULL)
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Taux_function.php on line 40
+[24-Nov-2022 15:51:48 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php(103): logger(Object(PDO), NULL, 3, 2, '110141', '')
+#2 /home/pesagecci/public_html/reservation_test/models/Set_affectation_model.php(19): SetAffectation(Object(PDO), 1, 1, '2', '81', '106158', '1', '', NULL, NULL)
+#3 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[24-Nov-2022 15:52:01 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php(103): logger(Object(PDO), NULL, 3, 2, '110142', '')
+#2 /home/pesagecci/public_html/reservation_test/models/Set_affectation_model.php(19): SetAffectation(Object(PDO), 1, 1, '2', '81', '106158', '1', '', NULL, NULL)
+#3 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[24-Nov-2022 15:52:32 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php(103): logger(Object(PDO), NULL, 3, 2, '110143', '')
+#2 /home/pesagecci/public_html/reservation_test/models/Set_affectation_model.php(19): SetAffectation(Object(PDO), 1, 1, '2', '81', '106158', '1', '', NULL, NULL)
+#3 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[24-Nov-2022 15:53:12 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php(103): logger(Object(PDO), NULL, 3, 2, '110144', '')
+#2 /home/pesagecci/public_html/reservation_test/models/Set_affectation_model.php(19): SetAffectation(Object(PDO), 1, 1, '2', '81', '106158', '1', '', NULL, NULL)
+#3 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[24-Nov-2022 15:53:36 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php(103): logger(Object(PDO), NULL, 3, 2, '110145', '')
+#2 /home/pesagecci/public_html/reservation_test/models/Set_affectation_model.php(19): SetAffectation(Object(PDO), 1, 1, '2', '86', '106542', '1', '', NULL, NULL)
+#3 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[24-Nov-2022 15:54:45 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php(103): logger(Object(PDO), NULL, 3, 2, '110146', '')
+#2 /home/pesagecci/public_html/reservation_test/models/Set_affectation_model.php(19): SetAffectation(Object(PDO), 1, 1, '2', '86', '106542', '1', '', NULL, NULL)
+#3 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[24-Nov-2022 15:57:33 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/functions/Set_Affectation_function.php(103): logger(Object(PDO), NULL, 3, 2, '110147', '')
+#2 /home/pesagecci/public_html/reservation_test/models/Set_affectation_model.php(19): SetAffectation(Object(PDO), 1, 1, '2', '86', '106542', '1', '', NULL, NULL)
+#3 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[29-Nov-2022 15:27:03 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IVOIRE')' at line 1' in /home/pesagecci/public_html/reservation_test/models/Process_pont_model.php:90
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Process_pont_model.php(90): PDO->query('SELECT * FROM S...')
+#1 /home/pesagecci/public_html/reservation_test/models/Process_pont_model.php(126): Ajout(Object(PDO), '1', '90')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Process_pont_model.php on line 90
+[08-Dec-2022 14:55:18 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(326): logger(Object(PDO), NULL, 4, 1, '109243', '')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[08-Dec-2022 14:55:29 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(326): logger(Object(PDO), NULL, 4, 1, '109243', '')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[08-Dec-2022 14:55:44 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(326): logger(Object(PDO), NULL, 4, 1, '109243', '')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[10-May-2023 16:33:56 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Pesage.inspecteur' doesn't exist' in /home/pesagecci/public_html/reservation_test2/models/Post_sup_model.php:150
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test2/models/Post_sup_model.php(150): PDO->query('SELECT M.IDENTI...')
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test2/models/Post_sup_model.php on line 150
+[10-May-2023 16:36:12 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Pesage.inspecteur' doesn't exist' in /home/pesagecci/public_html/reservation_test2/models/Post_sup_model.php:150
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test2/models/Post_sup_model.php(150): PDO->query('SELECT M.IDENTI...')
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test2/models/Post_sup_model.php on line 150
+[10-May-2023 17:10:29 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Pesage.Matrice' doesn't exist' in /home/pesagecci/public_html/reservation_test2/models/Post_sup_model.php:106
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test2/models/Post_sup_model.php(106): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test2/models/Post_sup_model.php on line 106
+[30-May-2023 15:51:25 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(326): logger(Object(PDO), NULL, 4, 1, '123858', '')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[30-May-2023 15:51:29 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(326): logger(Object(PDO), NULL, 4, 1, '123858', '')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[30-May-2023 15:51:35 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ACTEUR' cannot be null' in /home/pesagecci/public_html/reservation_test/functions/Log_function.php:10
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/functions/Log_function.php(10): PDOStatement->execute()
+#1 /home/pesagecci/public_html/reservation_test/models/Post_reserv_model.php(326): logger(Object(PDO), NULL, 4, 1, '123858', '')
+#2 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/functions/Log_function.php on line 10
+[30-May-2023 20:55:11 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''66','2023-05-22','1','8','2023-05-30')' at line 2' in /home/pesagecci/public_html/reservation_test/models/Post_sup_model.php:106
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_sup_model.php(106): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_sup_model.php on line 106
+[30-May-2023 20:55:20 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''66','2023-05-22','1','8','2023-05-30')' at line 2' in /home/pesagecci/public_html/reservation_test/models/Post_sup_model.php:106
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_sup_model.php(106): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_sup_model.php on line 106
+[30-May-2023 20:55:54 Africa/Abidjan] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''66','2023-05-22','1','8','2023-05-30')' at line 2' in /home/pesagecci/public_html/reservation_test/models/Post_sup_model.php:106
+Stack trace:
+#0 /home/pesagecci/public_html/reservation_test/models/Post_sup_model.php(106): PDOStatement->execute()
+#1 {main}
+  thrown in /home/pesagecci/public_html/reservation_test/models/Post_sup_model.php on line 106
