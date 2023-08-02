@@ -47,7 +47,7 @@ function GetInspectorList($bdd,$id,$action,$ville,$user,$type_compte){
 		$num = (($rows>0)?$donnees['NB_AFFECT']:"0");
 		$heures = (($rows>0)?$donnees['NB_HEURE']:"0");
 		
-		if($heures<$heuremax){
+		if(true or $heures<$heuremax){
 			$quarter=getvalue($bdd,'NOM,LOCALISATION','Quartier','IDENTIFIANT',$lign['QUARTIER']);
 			$distance=abs((!ctype_digit($quarter[1])?0:$quarter[1])-(!ctype_digit($quartier[1])?0:$quartier[1]));
 			$agent[]=array($lign['IDENTIFIANT'],str_replace(";","",$lign['NOM']." ".$lign['PRENOMS']),$heures,$num,$quarter[0],$distance);

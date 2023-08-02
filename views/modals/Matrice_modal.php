@@ -41,7 +41,8 @@
                             </div>
 				</div>
 				<div class="modal-footer">
-					<button type="submit" class="btn btn-success pull-center ">Télécharger</button>
+					<button type="submit" class="btn btn-danger pull-center ">PDF<i class="mdi mdi-file-pdf"></i></button>
+					<button type="button" id="btn-excel" class="btn btn-success pull-center ">EXCEL<i class="mdi mdi-file-excel"></i></button>
 					<button type="button" data-dismiss="modal" class="btn btn-info pull-center">Fermer</button>
 				</div>
               </form>

@@ -128,7 +128,7 @@
                     <span class="menu-title text-<?php echo(($page=='ponts')?'white':'info');?>">Sites</span>
                     <i class="menu-arrow"></i>
                   </a>
-              </li>
+                </li> 
               <li class="nav-item">
                   <a href="index.php?p=user" class="nav-link bg-<?php echo(($page=='user')?'primary':'white');?>">
                     <i class="mdi mdi-account menu-icon text-<?php echo(($page=='user')?'white':'primary');?>"></i>
@@ -157,6 +157,9 @@
                     <i class="menu-arrow"></i>
                   </a>
               </li>
+               <li class="nav-item"> 
+                  
+              </li>              
             </ul>
         </div>
       </nav>

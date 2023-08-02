@@ -83,15 +83,21 @@ function loadreservations(statut,pont,date){
 
                     if(response[j+4] == 1){			//1=en attente
 						if(response[j+6] == 1)
-							non = (typuser==6)?'<button class="btn btn-danger button-reservation" name="'+response[j]+'_3_0" title="Rejeter la réservation" style="color: white;" disabled><i class="mdi mdi-delete"></i></button>':'<button class="btn btn-danger button-reservation" name="'+response[j]+'_3_0" title="Rejeter la réservation" style="color: white;"><i class="mdi mdi-delete"></i></button>'; //&nbsp;Demander
-                        	oui = (typuser==6)?'<button class="btn btn-success button-reservation" name="'+response[j]+'_2_'+response[j+6]+'" title="Affecter un inspecteur à la réservation" style="color: white;" disabled><i class="mdi mdi-lead-pencil"></i></button>':'<button class="btn btn-success button-reservation" name="'+response[j]+'_2_'+response[j+6]+'" title="Affecter un inspecteur à la réservation" style="color: white;"><i class="mdi mdi-lead-pencil"></i></button>'; //&nbsp;Demander
-                    }else if(response[j+4] == 2){	//2=annulee
+							// non = (typuser==6)?'<button class="btn btn-danger button-reservation" name="'+response[j]+'_3_0" title="Rejeter la réservation" style="color: white;" disabled><i class="mdi mdi-delete"></i></button>':'<button class="btn btn-danger button-reservation" name="'+response[j]+'_3_0" title="Rejeter la réservation" style="color: white;"><i class="mdi mdi-delete"></i></button>'; //&nbsp;Demander
+                        	// oui = (typuser==6)?'<button class="btn btn-success button-reservation" name="'+response[j]+'_2_'+response[j+6]+'" title="Affecter un inspecteur à la réservation" style="color: white;" disabled><i class="mdi mdi-lead-pencil"></i></button>':'<button class="btn btn-success button-reservation" name="'+response[j]+'_2_'+response[j+6]+'" title="Affecter un inspecteur à la réservation" style="color: white;"><i class="mdi mdi-lead-pencil"></i></button>'; //&nbsp;Demander
+							non = '<button class="btn btn-danger button-reservation" name="'+response[j]+'_3_0" title="Rejeter la réservation" style="color: white;"><i class="mdi mdi-delete"></i></button>'; //&nbsp;Demander
+                        	oui = '<button class="btn btn-success button-reservation" name="'+response[j]+'_2_'+response[j+6]+'" title="Affecter un inspecteur à la réservation" style="color: white;"><i class="mdi mdi-lead-pencil"></i></button>'; //&nbsp;Demander
+
+						}else if(response[j+4] == 2){	//2=annulee
 						non = '';
 						oui = '';
                     }else if(response[j+4] == 3){	//3=affectee
-                        non = (typuser==6)?'<button class="btn btn-dark button-reservation" name="'+response[j]+'_5_'+response[j+6]+'" title="Annuler l\'affectation de l\'inspecteur à la réservation" style="color: white;" disabled><i class="mdi mdi-cancel"></i></button>':'<button class="btn btn-dark button-reservation" name="'+response[j]+'_5_'+response[j+6]+'" title="Annuler l\'affectation de l\'inspecteur à la réservation" style="color: white;"><i class="mdi mdi-cancel"></i></button>'; //&nbsp;Demander
-                        oui = (typuser==6)?'<button class="btn btn-warning button-reservation" name="'+response[j]+'_4_'+response[j+6]+'" title="Modifier l\'agent affecté à la réservation" style="color: white;" disabled><i class="mdi mdi-lead-pencil"></i></button>':'<button class="btn btn-warning button-reservation" name="'+response[j]+'_4_'+response[j+6]+'" title="Modifier l\'agent affecté à la réservation" style="color: white;"><i class="mdi mdi-lead-pencil"></i></button>'; //&nbsp;Demander
-                    }else if(response[j+4] == 4){	//4=avortee
+                        // non = (typuser==6)?'<button class="btn btn-dark button-reservation" name="'+response[j]+'_5_'+response[j+6]+'" title="Annuler l\'affectation de l\'inspecteur à la réservation" style="color: white;" disabled><i class="mdi mdi-cancel"></i></button>':'<button class="btn btn-dark button-reservation" name="'+response[j]+'_5_'+response[j+6]+'" title="Annuler l\'affectation de l\'inspecteur à la réservation" style="color: white;"><i class="mdi mdi-cancel"></i></button>'; //&nbsp;Demander
+                        // oui = (typuser==6)?'<button class="btn btn-warning button-reservation" name="'+response[j]+'_4_'+response[j+6]+'" title="Modifier l\'agent affecté à la réservation" style="color: white;" disabled><i class="mdi mdi-lead-pencil"></i></button>':'<button class="btn btn-warning button-reservation" name="'+response[j]+'_4_'+response[j+6]+'" title="Modifier l\'agent affecté à la réservation" style="color: white;"><i class="mdi mdi-lead-pencil"></i></button>'; //&nbsp;Demander
+						non = '<button class="btn btn-dark button-reservation" name="'+response[j]+'_5_'+response[j+6]+'" title="Annuler l\'affectation de l\'inspecteur à la réservation" style="color: white;"><i class="mdi mdi-cancel"></i></button>'; //&nbsp;Demander
+                        oui = '<button class="btn btn-warning button-reservation" name="'+response[j]+'_4_'+response[j+6]+'" title="Modifier l\'agent affecté à la réservation" style="color: white;"><i class="mdi mdi-lead-pencil"></i></button>'; //&nbsp;Demander
+
+					}else if(response[j+4] == 4){	//4=avortee
 						non = '';
 						oui = '';
 					}else if(response[j+4] == 5){	//5=rejetee

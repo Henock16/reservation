@@ -183,7 +183,7 @@ function getMatriceMensuelleHtml($mois){
 		$html.=(($echelle==1)?((($j==1)||($j==21)||($j==77)||($j==21)||($j==105))?$entete:''):((($j==1)||($j==47)||($j==100))?$entete:''));
 
 	else if($mpdf==7)	
-		$html.=(($echelle==1)?((($j==1)||($j==26)||($j==57)||($j==88)||($j==119))?$entete:''):$html.=((($j==1)||($j==47)||($j==100))?$entete:''));
+		$html.=(($echelle==1)?((($j==1)||($j==27)||($j==58)||($j==89)||($j==120))?$entete:''):$html.=((($j==1)||($j==47)||($j==100))?$entete:''));
 
 	$html.='      <tr>
                      <th height="20px" style="border: 1px solid black;" align="center">
@@ -193,7 +193,7 @@ function getMatriceMensuelleHtml($mois){
 						'.$donnees['MATRICULE'].'					 
 					 </th>
                      <th style="border: 1px solid black;" align="left">				
-						'.$donnees['NOM'].' '.$donnees['PRENOMS'].'					 
+						'.$donnees['NOM']=strtoupper($donnees['NOM']).' '.$donnees['PRENOMS']=strtoupper($donnees['PRENOMS']).'					 
 					 </th>';
 
 	$query="SELECT M.DATE_AFFECTATION,M.PLAGE_HORAIRE,M.NB_HEURE FROM matrice M	WHERE M.INSPECTEUR=".$donnees['IDENTIFIANT']."  
@@ -268,7 +268,7 @@ function getMatriceMensuelleHtml($mois){
 
 				  
 	$html.='    </tbody>              
-            </table>';			
+            </table> <br><br><br><br><br><br><br>';			
 
 ///////////////MOIS PRECEDENT///////////////////////////////////////////////////////////////////////////
     $moisprec=(($mois>1)?$annee:$annee-1)."-".Complete((($mois==1)?12:$mois-1),2);
@@ -296,6 +296,7 @@ function getMatriceMensuelleHtml($mois){
 		for($i=0;$i<count($deb);$i++){
 			$isdateweek=(($row['DATE_AFFECTATION']>=$deb[$i] && $row['DATE_AFFECTATION']<=$fin[$i])?true:false);
 			$hour[$i]+=($isdateweek?$row['NB_HEURE']:0);
+			
 		}
 		$night+=(($row['PLAGE_HORAIRE']==2)?1:0);
 		$ferie+=(isdayofrest($bdd,$row['DATE_AFFECTATION'])?1:0);
@@ -323,7 +324,7 @@ function getMatriceMensuelleHtml($mois){
 	$ligne=array('NOMBRE DE NUITS TRAVAILLEES','NOMBRE DE JOURS FERIES TRAVAILLES','HEURES SUP EFFECTUEES ESTIMEES');
 
 	for($i=0;$i<3;$i++){
-	$html.='<br><br><br><br><br><br><br><br>
+	$html.='<br><br><br>
 			<center>
 			<table style=";border: 1px solid black;border-collapse: collapse;padding-left:0px;padding-right:10px"  border=1 width="100%">
 			<thead>
@@ -397,7 +398,7 @@ function getMatriceMensuelleHtml($mois){
 	}
 ///////////////VALIDATIONS///////////////////////////////////////////////////////////////////////////
 
-	$html.='<br><br>
+	$html.='<br><br><br><br>
 			<table style=";border: 1px solid black;border-collapse: collapse;padding-left:0px;padding-right:10px"  border=1 width="100%">
                 <tbody>
                   <tr>
@@ -445,7 +446,7 @@ function getMatriceMensuelleHtml($mois){
 					 </th>
                   </tr>
                </tbody>              
-            </table>';
+            </table> <br><br><br><br>';
 
 if($mpdf==7){
 $html.='<br><br><br><br>';

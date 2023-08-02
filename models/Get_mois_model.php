@@ -29,14 +29,15 @@ function GetMois($type){
 	$i++;
 
 
-		$annee=date('Y');
+		$annee=date('Y'); 
 		$mois=date('m');
 		$days=$annee.'-'.$mois.'-01';
 		$weekbegin = date('Y-m-d',strtotime($days.' monday- 1 week'));	
  		$weekend = date('Y-m-d', strtotime($days.' sunday+ 1 week'));
  		$jourj = date('Y-m-d');
- 		
-	if($weekbegin<=$jourj  && $jourj<$weekend)
+		//  $mois1=date('m',strtotime($weekbegin));
+		//  $mois2=date('m',strtotime($weekend)); 
+ 	if($weekbegin<=$jourj  && $jourj<$weekend)
 	$mois=(date('m')-2);
 	else
 	$mois=(date('m')-1);		

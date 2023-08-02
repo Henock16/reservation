@@ -99,7 +99,7 @@ function getMatriceHebdomadaireHtml($semaine,$superviseur)
 	                     <th height="40px" style="border: 1px solid black;" align="left">	
 							<p style="font-weight:bold;color:black;white-space: nowrap;">
 							 SEMAINE DU '.implode('/',array_reverse(explode('-', $semaine[0]))).' AU '.implode('/',array_reverse(explode('-', $semaine[1]))).'<br/>
-							 SUPERVISEUR: '.$superviseur[0].'
+							 SUPERVISEUR: '.$superviseur[0]=strtoupper($superviseur[0]).'
 							</p>					 
 						 </th>
 	                  </tr>
@@ -179,7 +179,7 @@ function getMatriceHebdomadaireHtml($semaine,$superviseur)
 								'.$donnees['MATRICULE'].'					 
 							 </th>
 		                     <th style="border: 1px solid black;" align="left">				
-								'.$donnees['NOM'].' '.$donnees['PRENOMS'].'					 
+								'.$donnees['NOM']=strtoupper($donnees['NOM']).' '.$donnees['PRENOMS']=strtoupper($donnees['PRENOMS']).'					 
 							 </th>';
 
 			$jour=array();

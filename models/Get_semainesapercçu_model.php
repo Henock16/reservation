@@ -7,16 +7,17 @@
     Dernier modificateur : Cellule SOLAS - KENT
     Description: Obtenir la semaine encour et antérieur pour aperçue avant la matrice officiel
 */
-	$i=0;
-    $tab[$i]=0;
-    $i++;
-        
-    $tab[$i]=2; 
-    $i++;
-        
-    $tab[$i]=2;
-    $i++;
-   // Récupération de la date actuelle
+$i = 0;
+$tab[$i] = 0;
+$i++;
+
+$tab[$i] = 2;
+$i++;
+
+$tab[$i] = 2;
+$i++;
+
+// Récupération de la date actuelle
 $dateCourante = new DateTime();
 
 // Formatage de la date actuelle en mois au format 'Y-m'
@@ -50,30 +51,37 @@ while ($dateDebutMois <= $dateFinMois) {
     $dateDebutMois->modify('next Monday');
 }
 
-// Récupération de la semaine en cours
+// Récupération de la semaine en cours et de la semaine précédente
 foreach ($semaines as $index => $semaine) {
     if ($dateCourante >= $semaine['debut'] && $dateCourante <= $semaine['fin']) {
         $semaineEnCours = $index;
         break;
     }
+    $semainePrecedente = $index;
 }
 
-    // Affichage de la semaine précédente et de la semaine en cours
-    $semainePrecedente = $semaineEnCours - 1;
-	$tab[$i]=$semaines[$semainePrecedente]['debut']->format('Y-m-d')." ". $semaines[$semainePrecedente]['fin']->format('Y-m-d');
-	$i++;
+// Vérification si la date actuelle est égale à la date du dernier jour du mois ou supérieure
+if ($dateCourante >= $dateFinMois) {
+    $semaineUtilisee = count($semaines) - 1; // Dernière semaine du mois
+} else {
+    $semaineUtilisee = $semaineEnCours; // Semaine en cours
+}
 
-    $tab[$i]="DU ".$semaines[$semainePrecedente]['debut']->format('d/m/Y'). " AU " . $semaines[$semainePrecedente]['fin']->format('d/m/Y');
-	$i++;
+// Affichage de la semaine précédente
+$tab[$i] = $semaines[$semainePrecedente]['debut']->format('Y-m-d') . " " . $semaines[$semainePrecedente]['fin']->format('Y-m-d');
+$i++;
 
-	$tab[$i]=$semaines[$semaineEnCours]['debut']->format('Y-m-d')." ".$semaines[$semaineEnCours]['fin']->format('Y-m-d');
-	$i++;
+$tab[$i] = "DU " . $semaines[$semainePrecedente]['debut']->format('d/m/Y') . " AU " . $semaines[$semainePrecedente]['fin']->format('d/m/Y');
+$i++;
 
-    $tab[$i]="DU ".$semaines[$semaineEnCours]['debut']->format('d/m/Y')  . " AU " .  $semaines[$semaineEnCours]['fin']->format('d/m/Y');
-	$i++;
+// Affichage de la semaine en cours (dernière semaine du mois si date actuelle = dernier jour du mois)
+$tab[$i] = $semaines[$semaineUtilisee]['debut']->format('Y-m-d') . " " . $semaines[$semaineUtilisee]['fin']->format('Y-m-d');
+$i++;
 
-    /* Output header */
-    header('Content-type: application/json');
-    echo json_encode($tab);
+$tab[$i] = "DU " . $semaines[$semaineUtilisee]['debut']->format('d/m/Y') . " AU " . $semaines[$semaineUtilisee]['fin']->format('d/m/Y');
+$i++;
 
+/* Output header */
+header('Content-type: application/json');
+echo json_encode($tab);
 ?>

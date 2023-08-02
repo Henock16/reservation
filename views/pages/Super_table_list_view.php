@@ -11,7 +11,9 @@
                       <thead>
                         <tr>
                           <th>Identifiant</th>
-                          <th>Date</th>
+                          <th>Date</th> 
+                          <th class="superviseur">IDsuperviseur</th>
+                          <th class="superviseur">Superviseur</th>
                           <th>IDInspecteur</th>
                           <th>Inspecteur</th>
                           <th>Plage</th>
@@ -24,6 +26,8 @@
                         <tr>
                           <td></td>
                           <td></td>
+                          <td class="superviseur"></td>
+                          <td class="superviseur"></td>
                           <td></td>
                           <td></td>
                           <td></td>

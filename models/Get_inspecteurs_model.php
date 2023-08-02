@@ -35,7 +35,7 @@
 			$tab[$i] = $donnees['IDENTIFIANT'];
 			$i++;
 						
-			$tab[$i] = $donnees['NOM'].' '.$donnees['PRENOMS'];
+			$tab[$i] = strtoupper($donnees['NOM']).' '.strtoupper($donnees['PRENOMS']);
 			$i++;
 											
 			$tab[$i] = $donnees['STATUT'];

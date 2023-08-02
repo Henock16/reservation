@@ -41,7 +41,7 @@ function GetSemaines($mois){
  		$weekend = date('Y-m-d',strtotime("sunday 1 week"));
  		$week = $weekbegin." ".$weekend;
 
-		
+		 
 		if(!$old && ((date('w',strtotime($jour))==0)|| !$bon)){	
 		
 			$tab[$i]=$debut." ".$date;

@@ -82,6 +82,26 @@
                                     </div>  
                         </div>
                 </form>
+                <form method="post" class="form-group" id="form-search" style="margin-bottom: 5px;">
+                    <!-- <div class="modal-body" style="overflow-y:hidden;"> -->
+                                
+                                <div class="form-group form-row" style="margin-top:20px">
+                                    <label class="col-sm-3" >Mois *</label>
+                                   
+                                        <select name="mois" class="form-control text-center col-sm-3" style="float:right" required></select>
+                                    
+                                    <label style="white-space: nowrap;" class="col-sm-3" >Semaine *</label>
+                                   
+                                        <select name="semaine" class="form-control text-center col-sm-3" style="float:right" ></select>
+                                    
+                                    <label style="white-space: nowrap;" class="col-sm-3" >Superviseur *</label>
+                                        <select name="superviseur" class="form-control text-center col-sm-3" style="float:right" required></select>
+                                        &nbsp;&nbsp;&nbsp;
+                                    <button type="submit" class="btn btn-success pull-center "><i class="mdi mdi-magnify"></i></button>
+                                </div>
+                    <!-- </div> -->
+                    
+              </form>
                     <?php
                         include_once('Super_list_view.php'); 
                         include_once('Super_table_list_view.php');
