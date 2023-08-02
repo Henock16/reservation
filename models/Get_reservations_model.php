@@ -13,7 +13,10 @@
 	include_once('../functions/Date_function.php');
 	include_once('../functions/Table_value_function.php');
 	include_once('../functions/Last_day_function.php');
+<<<<<<< HEAD
 	include_once('../functions/Isdayofrest_function.php');
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 
 	function GetReservations($bdd,$type,$demand,$reserv,$util,$pont,$stat,$ville,$iduser){
 	 
@@ -27,7 +30,11 @@
 		$order=(($stat=='6')?"DESC":"ASC");
 					  
 		$query = "SELECT Reservation.IDENTIFIANT, Reservation.DATE_RESERVATION, Reservation.DATE_CREATION, Reservation.SITE, Reservation.USER, Reservation.PLAGE_HORAIRE, Reservation.STATUT  ";
+<<<<<<< HEAD
 		$query .=",Site.LIBELLE,Site.STRUCTURE AS SITE_STRUCTURE,Site.CODE_SITE,User.LOGIN,User.BLOQUE,User.STRUCTURE AS OPERATEUR_STRUCTURE ";
+=======
+		$query .=",Site.LIBELLE,Site.STRUCTURE AS SITE_STRUCTURE,Site.CODE_SITE,User.LOGIN,User.STRUCTURE AS OPERATEUR_STRUCTURE ";
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		$query .="FROM Reservation LEFT JOIN Site ON (Reservation.SITE = Site.IDENTIFIANT) LEFT JOIN User ON (Reservation.USER = User.IDENTIFIANT)";
 		$query .="WHERE Reservation.IDENTIFIANT>0 ".(($ville>0 && $_SESSION['TYPE_COMPTE']!=3)?" AND Site.VILLE='".$ville."'":"")."  ";
 		$query .=" AND (Reservation.DATE_RESERVATION".(($stat=='6')?"<":">")."'".$now."' OR (Reservation.DATE_RESERVATION='".$now."' AND Reservation.PLAGE_HORAIRE ".(($stat=='6')?"NOT":"")." IN('3','2'))) ";			
@@ -67,19 +74,29 @@
 			
 			//AGENT
 			if($donnees['STATUT']==3){				
+<<<<<<< HEAD
 				$affect=getvalue($bdd,'IDENTIFIANT,INSPECTEUR','Affectation','RESERVATION',$donnees['IDENTIFIANT']);
 				$agent=getvalue($bdd,'NOM,PRENOMS','Inspecteur','IDENTIFIANT',$affect[1]);				
+=======
+				$affect=getvalue($bdd,'INSPECTEUR','Affectation','RESERVATION',$donnees['IDENTIFIANT']);
+				$agent=getvalue($bdd,'NOM,PRENOMS','Inspecteur','IDENTIFIANT',$affect[0]);				
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 			}
 			$tab[$i] = (($donnees['STATUT']==3)?$agent[0].' '.$agent[1]:'');
 			$i++;
 			
 			//EXPIRE
+<<<<<<< HEAD
 			$tab[$i] = (($donnees['DATE_RESERVATION']<$now ||($donnees['DATE_RESERVATION']==$now && $donnees['PLAGE_HORAIRE']==1))?0:1);
 			$i++;			
 
 			//BLOQUE
 			$tab[$i] = ($donnees['BLOQUE'] && ($now<=$donnees['DATE_RESERVATION']) && ($donnees['PLAGE_HORAIRE']==2 || isdayofrest($bdd,$donnees['DATE_RESERVATION']) || in_array(date('w',mktime(0,0,0,substr($donnees['DATE_RESERVATION'],5,2),substr($donnees['DATE_RESERVATION'],8,2),substr($donnees['DATE_RESERVATION'],0,4))),array("6","0"))));
 			$i++;
+=======
+			$tab[$i] = (($donnees['DATE_RESERVATION']<$now ||($donnees['DATE_RESERVATION']==$now && $donnees['PLAGE_HORAIRE']==1))?1:0);
+			$i++;			
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		}
 		$reponse->closeCursor();	
 
@@ -92,4 +109,8 @@
     header('Content-type: application/json');
     echo json_encode($tab);
 
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643

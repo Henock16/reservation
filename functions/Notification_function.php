@@ -26,6 +26,7 @@ function Notification($bdd,$action,$idreserv)
 		}
 	$res->closeCursor();	
 
+<<<<<<< HEAD
 
 	$reserv=substr($reserv,8,2).'/'.substr($reserv,5,2).'/'.substr($reserv,0,4);
 	$plage=(($plage=="1")?"journée":"nuit");
@@ -40,6 +41,16 @@ function Notification($bdd,$action,$idreserv)
 	else
 		$message="En réponse à votre demande, l'inspecteur <b>".$inspecteur."</b> a été affecté sur <b>".$site."</b> pour la <b>".$plage."</b> du <b>".$reserv."</b>.";
 
+=======
+	$sujet=(($action==3)?"REJET POUR ":(($action==4)?"MODIFICATION POUR ":(($action==5)?"ANNULATION POUR ":"")))."OPERATION DE PESEES DE TCS SUR ".strtoupper($site);
+	$reserv=substr($reserv,8,2).'/'.substr($reserv,5,2).'/'.substr($reserv,0,4);
+	if($action==3)
+		$message="Votre demande d'inspecteur sur <b>".strtoupper($site)."</b> pour la <b>".(($plage=="1")?"journée":"nuit")."</b> du <b>".$reserv."</b> a été rejetée . ";
+	else if($action==5)
+		$message="L'affectation de l'inspecteur <b>".$inspecteur." (".$telephone.")</b> sur <b>".strtoupper($site)."</b> pour la <b>".(($plage=="1")?"journée":"nuit")."</b> du <b>".$reserv."</b> a été annulée. ";
+	else
+		$message="En réponse à votre demande, l'inspecteur <b>".$inspecteur."(".$telephone.")</b> a été affecté sur <b>".strtoupper($site)."</b> pour la <b>".(($plage=="1")?"journée":"nuit")."</b> du <b>".$reserv."</b>. ";
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 
 	$result="";
 	$query="SELECT E.LIBELLE FROM Email E,User U WHERE E.USER=U.IDENTIFIANT AND U.STATUT_COMPTE='0' AND  E.STATUT='0' AND U.IDENTIFIANT='".$idop."' ";

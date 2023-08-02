@@ -37,13 +37,17 @@
       <nav class="navbar top-navbar col-lg-12 col-12 p-0">
         <div class="container-fluid">
           <div class="navbar-menu-wrapper d-flex align-items-center justify-content-between">
+<<<<<<< HEAD
 		  
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 			<ul class="navbar-nav navbar-nav-left">
               <li class="nav-item ml-0 mr-5 d-lg-flex d-none">
                 <a href="#" class="nav-link horizontal-nav-left-menu"><i class="mdi mdi-format-list-bulleted"></i></a>
               </li>
             </ul>
 
+<<<<<<< HEAD
  			<div class="col-md-3 col-sm-3 col-xs-3 text-center" style="color: white;background-color: gray;border: 1px solid;margin-bottom: 0px;">
 				<b>RESERVATIONS DU MOIS DE <span id="mois"></span> <span id="annee"></span></b> <br>
 				TAUX DE SATISFACTION: <b><span id="taux"></span></b> %
@@ -55,6 +59,8 @@
 				SATISFAITES: <b><span id="satisf"></span></b> / RECUES: <b><span id="recues"></span></b>
 			</div>
 
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 			<div class="container text-center" id="intro">
 				<h2 class="thin" style="margin-top: 10px;"><img src="images/cci.jpg" width="350px" height="50px"/></h2>
 				<p class="text-muted">
@@ -65,6 +71,7 @@
 				</p>
 			</div>
 			
+<<<<<<< HEAD
 			<div class="container text-center" id="intro">
                   <button type="button" id="affectexcept" class="btn btn-inverse-warning btn-sm" title="Effectuer une affectation exceptionnelle">
 					Affectation 
@@ -76,6 +83,13 @@
 
             <ul class="navbar-nav navbar-nav-right">
                 <li class="nav-item dropdown  d-lg-flex d-none">
+=======
+            <ul class="navbar-nav navbar-nav-right">
+                <li class="nav-item dropdown  d-lg-flex d-none">
+                  <button type="button" id="recapitulatif" class="btn btn-inverse-success btn-sm" title="Envoyer le récapitulatif PDF des affectations par mail">
+					Récapitulatif 
+				  </button>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                 </li>
                 <li class="nav-item nav-profile dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
@@ -84,11 +98,15 @@
                     <img src="<?php echo (file_exists('images/faces/face'.$_SESSION['ID_UTIL'].'.jpg')?'images/faces/face'.$_SESSION['ID_UTIL'].'.jpg':'images/faces/face0.png'); ?>" alt="profile"/>
                   </a>
                   <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+<<<<<<< HEAD
                       <a class="dropdown-item" id="matrice" title="Telecharger la matrice des heures de travail des inspecteurs">
                         <i class="mdi mdi-view-module text-primary"></i>
                         Matrice
                       </a>
                       <a class="dropdown-item" id="param" title="Modifier les paramètres de l'application">
+=======
+                      <a class="dropdown-item">
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                         <i class="mdi mdi-settings text-warning"></i>
                         Paramètres
                       </a>
@@ -105,6 +123,7 @@
           </div>
         </div>
       </nav>
+<<<<<<< HEAD
       <nav class="navbar bottom-navbar">
         <div class="container">
             <ul class="nav page-navigation">
@@ -114,6 +133,17 @@
                     <span class="menu-title text-<?php echo(($page=='affect')?'white':'success');?>">Réservations</span>
                   <i class="menu-arrow"></i>
                 </a>
+=======
+      <nav class="bottom-navbar">
+        <div class="container">
+            <ul class="nav page-navigation">
+              <li class="nav-item">
+					<a href="index.php?p=affect" class="nav-link bg-<?php echo(($page=='affect')?'success':'white');?>">
+					  <i class="mdi mdi-truck menu-icon text-<?php echo(($page=='affect')?'white':'success');?>"></i>
+					  <span class="menu-title text-<?php echo(($page=='affect')?'white':'success');?>">Réservations</span>
+					  <i class="menu-arrow"></i>
+				   </a>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
               </li>
               <li class="nav-item">
                   <a href="index.php?p=inspect" class="nav-link bg-<?php echo(($page=='inspect')?'warning':'white');?>">
@@ -128,7 +158,11 @@
                     <span class="menu-title text-<?php echo(($page=='ponts')?'white':'info');?>">Sites</span>
                     <i class="menu-arrow"></i>
                   </a>
+<<<<<<< HEAD
                 </li> 
+=======
+              </li>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
               <li class="nav-item">
                   <a href="index.php?p=user" class="nav-link bg-<?php echo(($page=='user')?'primary':'white');?>">
                     <i class="mdi mdi-account menu-icon text-<?php echo(($page=='user')?'white':'primary');?>"></i>
@@ -145,6 +179,7 @@
               </li>
               <li class="nav-item">
                   <a href="index.php?p=extract" class="nav-link bg-<?php echo(($page=='extract')?'dark':'white');?>">
+<<<<<<< HEAD
                     <i class="mdi mdi-file-document-box menu-icon text-<?php echo(($page=='extract')?'white':'dark');?>"></i>
                     <span class="menu-title text-<?php echo(($page=='extract')?'white':'dark');?>">Affectations</span>
                     <i class="menu-arrow"></i>
@@ -167,3 +202,14 @@
 	
 	
 	
+=======
+                    <i class="mdi mdi-file-document-box menu-icon text-<?php echo(($page=='extract')?'white':'dark');?>">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                    <span class="menu-title text-<?php echo(($page=='extract')?'white':'dark');?>">Affectations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <i class="menu-arrow"></i>
+                  </a>
+              </li>
+            </ul>
+        </div>
+      </nav>
+    </div>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643

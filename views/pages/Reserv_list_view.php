@@ -2,10 +2,17 @@
 			<button type="button" id="close_alert" class="close" aria-label="Close">
 				<span aria-hidden="true">&times;</span>
 			</button>
+<<<<<<< HEAD
 				<div class="form-group text-center" style="height:10%;">
     				<h3 id="message-title" ></h3> 										
 				</div>
     			<div class="form-group text-center text-bottom" style="height:60%;">
+=======
+				<div class="form-group text-center" style="height:20%;">
+    				<h3 id="message-title" ></h3> 										
+				</div>
+    			<div class="form-group text-center text-bottom" style="height:50%;">
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
     				<p id="message-text" ></p> 							
         		</div>
         		<div class="form-group text-center" style="height:30%;vertical-align: bottom;">

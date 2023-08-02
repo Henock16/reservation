@@ -11,11 +11,15 @@ $(document).ready(function(){
                 }
 		},
         dom: 'Bfrtip',
+<<<<<<< HEAD
 		buttons: [{extend:'copyHtml5',text:'Copier',titleAttr: 'Copier le contenu du tableau'},
 				  {extend:'csv',text:'CSV',titleAttr: 'Télécharger le tableau au format CSV'},
 				  {extend:'excel',text:'Excel',titleAttr: 'Télécharger le tableau au format Excel'},
 				  {extend:'pdf',text:'PDF',titleAttr: 'Télécharger le tableau au format PDF'},
 				  {extend:'print',text:'Imprimer',titleAttr: 'Imprimer le tableau'}],
+=======
+		buttons: ['copy', 'csv', 'excel', 'pdf', 'print'],
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
     });
 
 
@@ -61,6 +65,7 @@ function loadponts(){
 						modif='';
  
                     $('.table-ponts').DataTable().row.add([
+<<<<<<< HEAD
                         '<label class="badge bg-'+statuscolor((response[j+2]==0)?3:5)+'" style="color:white;border-radius: 5px;height: 20px;padding-top: 3px">'+Statut(response[j+2])+'</label>',
                         response[j+4],
                         '<span style="color:'+villecolor(response[j+5])+'">'+TypePont(response[j+5])+'</span> ',
@@ -68,6 +73,15 @@ function loadponts(){
                         '<b>'+response[j+1]+'</b>',
                         response[j+6],
                         '<span style="color:'+villecolor(response[j+7])+'">'+Ville(response[j+7])+'</span> ',
+=======
+                        '<label class="badge badge-'+statuscolor((response[j+2]==0)?3:5)+'" style="border-radius: 5px;height: 20px;padding-top: 3px">'+Statut(response[j+2])+'</label>',
+                        response[j+4],
+                        '<span class="text-'+statuscolor(response[j+5])+'">'+TypePont(response[j+5])+'</span> ',
+                        response[j+3],
+                        '<b>'+response[j+1]+'</b>',
+                        response[j+6],
+                        '<span class="text-'+statuscolor(response[j+7])+'">'+Ville(response[j+7])+'</span> ',
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
  						'<span style="white-space:nowrap">'+actif+' '+modif+'</span>',
                         '<button class="btn btn-info button-ponts" name="'+response[j]+'_1_'+response[j+2]+'" title="Détails" style="color: white;"><i class="mdi mdi-magnify-plus"></i></button>' //&nbsp;details
                     ]).columns.adjust().draw(false);
@@ -136,12 +150,15 @@ $('.form-pont select[name="struct"]').on('change', function(e){
 
 });
 
+<<<<<<< HEAD
 $('.form-pont select[name="quartier"]').on('change', function(e){
 	
 	if($('.form-pont select[name="quartier"]').val()==0)
 		loadform(0,0,'pont','quartier','quartier','');
 
 });
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 
 ///*
 $('.form-pont').on('submit', function(e){

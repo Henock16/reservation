@@ -15,7 +15,11 @@
                     <div class="form-group row" id="statut" style="margin-bottom:0px;">
 						<label class="col-sm-4" style="padding-top:0px;height:30px;">Statut</label>
 						<div class="input-group col-sm-8"  style="float:right">
+<<<<<<< HEAD
 							<label for="statut0" class="col-sm-6 btn btn-success" style="color:white;height:30px;padding-top:5px;text-align:left">
+=======
+							<label for="statut0" class="col-sm-6 btn btn-success" style="height:30px;padding-top:5px;text-align:left">
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 							<input type="radio" class="pont-details" name="statut" id="statut0" value="0"/>
 							Actif</label>
 							<label for="statut1" class="col-sm-6 btn btn-danger" style="height:30px;padding-top:5px;text-align:left">
@@ -61,20 +65,30 @@
                     <div class="form-group row" id="ville"style="margin-top:0px;margin-bottom:0px;">
 						<label class="col-sm-4" style="padding-top:0px;height:30px;">Ville</label>
 						<div class="input-group col-sm-8"  style="float:right">
+<<<<<<< HEAD
 							<label for="ville1" class="col-sm-6 btn btn-warning" style="height:30px;padding-top:5px;text-align:left">
 							<input type="radio" class="pont-details" name="ville" id="ville1" value="1"/>
 							Abidjan</label>
 							<label for="ville2" class="col-sm-6 btn btn-primary" style="height:30px;padding-top:5px;text-align:left">
+=======
+							<label for="ville1" class="col-sm-6 btn btn-light" style="height:30px;padding-top:5px;text-align:left">
+							<input type="radio" class="pont-details" name="ville" id="ville1" value="1"/>
+							Abidjan</label>
+							<label for="ville2" class="col-sm-6 btn btn-light" style="height:30px;padding-top:5px;text-align:left">
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 							<input type="radio" class="pont-details" name="ville" id="ville2" value="2"/>
 							San Pédro</label>
 						</div>
                     </div>
+<<<<<<< HEAD
                     <div class="form-group row" id="quartier"style="margin-top:0px;margin-bottom:0px;">
 						<label class="col-sm-4" style="padding-top:0px;height:30px;">Quartier</label>
 						<div class="input-group col-sm-8"  style="float:right">
 							<select class="form-control pont-details" name="quartier" placeholder="" style="height:30px"/></select>
 						</div>
                     </div>
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                     <div class="form-group row" id="localisation"style="margin-top:0px;margin-bottom:0px;">
 						<label class="col-sm-4" style="padding-top:0px;height:30px;">Localisation</label>
 						<div class="input-group col-sm-8"  style="float:right">

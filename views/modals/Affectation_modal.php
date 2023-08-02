@@ -10,12 +10,20 @@
 				<div class="modal-body" style="overflow-y:hidden;">
 
                    <div class="col-12" id="affectation-details">
+<<<<<<< HEAD
                         <b>
                             Veuillez sélectionner l'inspecteur à affecter sur <h5 class="lead" style="font-weight: bold;" id="nom-pont"></h5> 
                         </b>
                         <br/>
 						
                             <input type="hidden"  name="statut" value="">
+=======
+                        <h3 class="lead" style="font-weight: bold;">
+                            <b> Veuillez sélectionner l'inspecteur à affecter:</b> 
+                        </h3>
+                        <br/>
+						
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                             <input type="hidden"  name="action-id" value="">
                             <input type="hidden"  name="reservation-id" value="">
                             <input type="hidden"  name="table" value="">

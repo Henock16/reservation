@@ -34,8 +34,13 @@
                 <img src="images/cci.jpg" alt="logo" style="width: 100%;">
               </div>
               <form class="pt-3 form-authentication">
+<<<<<<< HEAD
                 <div class="form-group text-center" >
 				    <p style="color: black; font-size: 18px;"><span style="color:#D70036;">P</span>rogrammation des <span style="color:#D70036;">O</span>p&eacute;rations de <span style="color:#D70036;">P</span>esage</p>
+=======
+                <div class="form-group">
+				    <p style="color: black; font-size: 18px; align:center"><span style="color:#D70036;">P</span>rogrammation des <span style="color:#D70036;">O</span>p&eacute;rations de <span style="color:#D70036;">P</span>esage</p>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                  </div>
                 <div class="form-group">
                   <label for="exampleInputEmail">Nom d'utilisateur</label>
@@ -62,6 +67,7 @@
                 <div class="my-3">
                   <button type="submit" class="btn btn-block btn-secondary btn-lg font-weight-medium auth-form-btn">Connexion</button>
                 </div>
+<<<<<<< HEAD
 
                 <div class="my-3">
 	    					<div class="col-md-12 col-sm-12 col-xs-12" style="padding:0px;padding-left:10px;margin-top:5px;background-color:#770055;color:white" align="left">
@@ -76,6 +82,16 @@
 
                 </div>
 
+=======
+<!--
+                <div class="my-3">
+                  <a id="new-suggestion" href="#modal-suggestion" data-toggle="modal" data-target="#modal-suggestion" style="font-size: 12px;">Emettre une suggestion</a>
+                </div>
+                <div class="my-3">
+                  <a id="forgotten-password" href="#modal-ForgottenPassword" data-toggle="modal" data-target="#modal-ForgottenPassword" style="font-size: 12px;">Mot de passe oublié</a>
+                </div>
+-->
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
               </form>
             </div>
           </div>
@@ -119,4 +135,8 @@ echo "<script type='text/javascript' >
 
 ?>  
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643

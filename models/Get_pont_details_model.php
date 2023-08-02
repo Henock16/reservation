@@ -60,9 +60,12 @@
 
 			$tab[$i] = (($donnees['CONTACT_RESPO']==null)?'':$donnees['CONTACT_RESPO']);
 			$i++;
+<<<<<<< HEAD
 
 			$tab[$i] = $donnees['QUARTIER'];
 			$i++;
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 			}
 		$result->closeCursor();	
 

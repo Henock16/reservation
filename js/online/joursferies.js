@@ -11,11 +11,15 @@ $(document).ready(function(){
                 }
 		},
         dom: 'Bfrtip',
+<<<<<<< HEAD
 		buttons: [{extend:'copyHtml5',text:'Copier',titleAttr: 'Copier le contenu du tableau'},
 				  {extend:'csv',text:'CSV',titleAttr: 'Télécharger le tableau au format CSV'},
 				  {extend:'excel',text:'Excel',titleAttr: 'Télécharger le tableau au format Excel'},
 				  {extend:'pdf',text:'PDF',titleAttr: 'Télécharger le tableau au format PDF'},
 				  {extend:'print',text:'Imprimer',titleAttr: 'Imprimer le tableau'}],
+=======
+		buttons: ['copy', 'csv', 'excel', 'pdf', 'print'],
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
     });
 
 
@@ -50,8 +54,13 @@ function loadferies(){
 
                 for(var i = 0; i < response[1]; i++){
    					
+<<<<<<< HEAD
 					modif = '<button class="btn btn-warning button-feries" name="'+response[j]+'_2_1" title="Modifier" style="color: white;"><i class="mdi mdi-lead-pencil"></i></button>';
  					suppr = '<button class="btn btn-danger button-feries" name="'+response[j]+'_3_1" title="Supprimer" style="color: white;"><i class="mdi mdi-cancel"></i></button>';
+=======
+					modif = '<button class="btn btn-warning button-feries" name="'+response[j]+'_2_'+response[j+4]+'" title="Modifier" style="color: white;"><i class="mdi mdi-lead-pencil"></i></button>';
+ 					suppr = '<button class="btn btn-danger button-feries" name="'+response[j]+'_3_'+response[j+4]+'" title="Supprimer" style="color: white;"><i class="mdi mdi-cancel"></i></button>';
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
  
                     $('.table-feries').DataTable().row.add([
                         '<center><label class="badge badge-'+statuscolor(response[j+1])+'" style="border-radius: 5px;height: 20px;padding-top: 3px">'+JourFerie(response[j+1])+'</label></center>',

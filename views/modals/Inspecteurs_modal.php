@@ -15,7 +15,11 @@
                     <div class="form-group row" id="statut" style="margin-bottom:0px;">
 						<label class="col-sm-4" style="padding-top:0px;height:30px;">Statut</label>
 						<div class="input-group col-sm-8"  style="float:right">
+<<<<<<< HEAD
 							<label for="statut0" class="col-sm-6 btn btn-success" style="color:white;height:30px;padding-top:5px;text-align:left">
+=======
+							<label for="statut0" class="col-sm-6 btn btn-success" style="height:30px;padding-top:5px;text-align:left">
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 							<input type="radio" class="inspecteur-details" name="statut" id="statut0" value="0"/>
 							Actif</label>
 							<label for="statut1" class="col-sm-6 btn btn-danger" style="height:30px;padding-top:5px;text-align:left">
@@ -47,6 +51,15 @@
 							<input type="text" class="form-control inspecteur-details datepicker text-center" name="naissance" placeholder="" style="height:30px"/>
 						</div>
                     </div>
+<<<<<<< HEAD
+=======
+                    <div class="form-group row" id="habitation"style="margin-top:0px;margin-bottom:0px;">
+						<label class="col-sm-4" style="padding-top:0px;height:30px;">Lieu d'habitation</label>
+						<div class="input-group col-sm-8"  style="float:right">
+							<input type="text" class="form-control inspecteur-details" name="habitation" placeholder="" style="height:30px"/>
+						</div>
+                    </div>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                     <div class="form-group row" id="mail"style="margin-top:0px;margin-bottom:0px;">
 						<label class="col-sm-4" style="padding-top:0px;height:30px;">Adresse mail</label>
 						<div class="input-group col-sm-8"  style="float:right">
@@ -56,17 +69,25 @@
                     <div class="form-group row" id="telephone"style="margin-top:0px;margin-bottom:0px;">
 						<label class="col-sm-4" style="padding-top:0px;height:30px;">Téléphone perso</label>
 						<div class="input-group col-sm-8"  style="float:right">
+<<<<<<< HEAD
 							<input type="number" class="form-control inspecteur-details" name="telephone" placeholder="" style="height:30px" maxlength="10" onkeypress="return ((event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : ((event.charCode >= 48 && event.charCode <= 57) || event.charCode == 32 || event.charCode == 45 || event.charCode == 47))"
 
 />
+=======
+							<input type="number" class="form-control inspecteur-details" name="telephone" placeholder="" style="height:30px"/>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 						</div>
                     </div>
                     <div class="form-group row" id="flotte"style="margin-top:0px;margin-bottom:0px;">
 						<label class="col-sm-4" style="padding-top:0px;height:30px;">Téléphone flotte</label>
 						<div class="input-group col-sm-8"  style="float:right">
+<<<<<<< HEAD
 							<input type="number" class="form-control inspecteur-details" name="flotte" placeholder="" style="height:30px" maxlength="10" onkeypress="return ((event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : ((event.charCode >= 48 && event.charCode <= 57) || event.charCode == 32 || event.charCode == 45 || event.charCode == 47))"
 
 />
+=======
+							<input type="number" class="form-control inspecteur-details" name="flotte" placeholder="" style="height:30px"/>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 						</div>
                     </div>
                     <div class="form-group row" id="contrat"style="margin-top:0px;margin-bottom:0px;">
@@ -80,6 +101,26 @@
 							CDI</label>
 						</div>
                     </div>
+<<<<<<< HEAD
+=======
+                    <div class="form-group row" id="ville"style="margin-top:0px;margin-bottom:0px;">
+						<label class="col-sm-4" style="padding-top:0px;height:30px;">Ville</label>
+						<div class="input-group col-sm-8"  style="float:right">
+							<label for="ville1" class="col-sm-6 btn btn-light" style="height:30px;padding-top:5px;text-align:left">
+							<input type="radio" class="inspecteur-details" name="ville" id="ville1" value="1"/>
+							Abidjan</label>
+							<label for="ville2" class="col-sm-6 btn btn-light" style="height:30px;padding-top:5px;text-align:left">
+							<input type="radio" class="inspecteur-details" name="ville" id="ville2" value="2"/>
+							San Pédro</label>
+						</div>
+                    </div>
+                    <div class="form-group row" id="site"style="margin-top:0px;margin-bottom:0px;">
+						<label class="col-sm-4" style="padding-top:0px;height:30px;">Site d'affectation</label>
+						<div class="input-group col-sm-8"  style="float:right">
+							<select class="form-control inspecteur-details" name="site" placeholder="" style="height:30px"/></select>
+						</div>
+                    </div>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                     <div class="form-group row" id="diplome"style="margin-top:0px;margin-bottom:0px;">
 						<label class="col-sm-4" style="padding-top:0px;height:30px;">Diplome</label>
 						<div class="input-group col-sm-8"  style="float:right">
@@ -92,6 +133,7 @@
 							<input type="text" class="form-control inspecteur-details" name="niveau" placeholder="" style="height:30px"/>
 						</div>
                     </div>
+<<<<<<< HEAD
                     <div class="form-group row" id="ville"style="margin-top:0px;margin-bottom:0px;">
 						<label class="col-sm-4" style="padding-top:0px;height:30px;">Ville</label>
 						<div class="input-group col-sm-8"  style="float:right">
@@ -127,6 +169,8 @@
 							<select class="form-control inspecteur-details" name="site" placeholder="" style="height:30px"/></select>
 						</div>
                     </div>
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
  
 				</div>
 				<div class="modal-footer">

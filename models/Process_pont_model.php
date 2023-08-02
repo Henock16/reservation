@@ -3,7 +3,11 @@
     Date creation : 18-05-2021
     Auteur : Cellule SOLAS - ABRS
     Version:1.0
+<<<<<<< HEAD
     Derniè modification : 18-05-2021
+=======
+    Dernière modification : 18-05-2021
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
     Dernier modificateur : Cellule SOLAS - ABRS
     Description: Activation/Desactivation, Modification,Ajout d'un inspecteur
 */
@@ -15,7 +19,11 @@
 
 		$query="UPDATE Site SET STATUT='".(1-$statut)."' WHERE IDENTIFIANT='".$id."' AND STATUT='".$statut."'";
 		$req1=$bdd->exec($query);
+<<<<<<< HEAD
 		$tab[0]=($req1?0:"Erreur liéàa base de donné");
+=======
+		$tab[0]=($req1?0:"Erreur liée à la base de données");
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 
 	return $tab;
 	}
@@ -28,10 +36,16 @@
 		$type = (isset($_POST['type'])?$_POST['type']:0); 
 		$code = (isset($_POST['code'])?$_POST['code']:''); 
 		$nom = (isset($_POST['nom'])?$_POST['nom']:''); 	
+<<<<<<< HEAD
 		$struct = (!empty($_POST['struct'])?$_POST['struct']:0); 
 		$ville = (isset($_POST['ville'])?$_POST['ville']:$ville); 
 
 		$quartier = (!empty($_POST['quartier'])?$_POST['quartier']:0); 
+=======
+		$struct = (!empty($_POST['struct'])?$_POST['struct']:null); 
+		$ville = (isset($_POST['ville'])?$_POST['ville']:$ville); 
+
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		$localisation = (isset($_POST['localisation'])?$_POST['localisation']:''); 
 		$gps = (isset($_POST['gps'])?$_POST['gps']:''); 
 		$nomresp = (isset($_POST['nomresp'])?$_POST['nomresp']:''); 
@@ -59,7 +73,11 @@
 
 			$modif="UPDATE Site SET STATUT=".$statut.",NIVEAU=".$niveau.",TYPE_SITE=".$type.",
 			CODE_SITE='".str_replace("'","''",$code)."',LIBELLE='".str_replace("'","''",$nom)."',STRUCT=".$struct.",
+<<<<<<< HEAD
 			VILLE=".$ville.",QUARTIER=".$quartier.",ADRESSE_GEO='".str_replace("'","''",$localisation)."',COORDON_GPS='".str_replace("'","''",$gps)."',
+=======
+			VILLE=".$ville.",ADRESSE_GEO='".str_replace("'","''",$localisation)."',COORDON_GPS='".str_replace("'","''",$gps)."',
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 			NOM_RESPO='".str_replace("'","''",$nomresp)."',FONCTION_RESPO='".str_replace("'","''",$foncresp)."',
 			CONTACT_RESPO='".str_replace("'","''",$contresp)."' WHERE IDENTIFIANT='".$id."'";
 			$bdd->exec($modif);
@@ -76,10 +94,16 @@
 		$type = (isset($_POST['type'])?$_POST['type']:0); 
 		$code = (isset($_POST['code'])?$_POST['code']:''); 
 		$nom = (isset($_POST['nom'])?$_POST['nom']:''); 	
+<<<<<<< HEAD
 		$struct = (!empty($_POST['struct'])?$_POST['struct']:0); 
 		$ville = (isset($_POST['ville'])?$_POST['ville']:$ville); 
 
 		$quartier = (!empty($_POST['quartier'])?$_POST['quartier']:0); 
+=======
+		$struct = (!empty($_POST['struct'])?$_POST['struct']:null); 
+		$ville = (isset($_POST['ville'])?$_POST['ville']:$ville); 
+
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		$localisation = (isset($_POST['localisation'])?$_POST['localisation']:''); 
 		$gps = (isset($_POST['gps'])?$_POST['gps']:''); 
 		$nomresp = (isset($_POST['nomresp'])?$_POST['nomresp']:''); 
@@ -105,9 +129,15 @@
 		else{
 
 			$insert="INSERT INTO Site(USER,STATUT,NIVEAU,TYPE_SITE,CODE_SITE,LIBELLE,STRUCT,VILLE,
+<<<<<<< HEAD
 			QUARTIER,ADRESSE_GEO,COORDON_GPS,NOM_RESPO,FONCTION_RESPO,CONTACT_RESPO,DATE_CREATION)";
 			$insert.=" VALUES(0,".$statut.",".$niveau.",".$type.",'".str_replace("'","''",$code)."',
 			'".str_replace("'","''",$nom)."',".$struct.",".$ville.",".$quartier.",'".str_replace("'","''",$localisation)."',
+=======
+			ADRESSE_GEO,COORDON_GPS,NOM_RESPO,FONCTION_RESPO,CONTACT_RESPO,DATE_CREATION)";
+			$insert.=" VALUES(0,".$statut.",".$niveau.",".$type.",'".str_replace("'","''",$code)."',
+			'".str_replace("'","''",$nom)."',".$struct.",".$ville.",'".str_replace("'","''",$localisation)."',
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 			'".str_replace("'","''",$gps)."','".str_replace("'","''",$nomresp)."','".str_replace("'","''",$foncresp)."',
 			'".str_replace("'","''",$contresp)."','".date("Y-m-d H:i:s")."')";
 			$bdd->exec($insert);
@@ -130,4 +160,8 @@
     echo json_encode($tab);
 
 
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643

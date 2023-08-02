@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+<<<<<<< HEAD
     $(".table-reservations").DataTable({
         autoWidth: true, 
         ordering:  false,
@@ -19,6 +20,21 @@ $(document).ready(function(){
 				  {extend:'excel',text:'Excel',titleAttr: 'Télécharger le tableau au format Excel'},
 				  {extend:'pdf',text:'PDF',titleAttr: 'Télécharger le tableau au format PDF'},
 				  {extend:'print',text:'Imprimer',titleAttr: 'Imprimer le tableau'}],
+=======
+
+    $(".table-reservations").DataTable({
+        autoWidth: true,
+        ordering:  false,
+        language: {'url': 'vendors/datatables/French.json'},
+        pageLength: nbreserv,
+		createdRow: function( row, data, dataIndex){
+               if( data[1] ==  'JOUR'  ){
+                    $(row).css({"background-color":"#dddd33"});
+                }
+		},
+        dom: 'Bfrtip',
+		buttons: ['copy', 'csv', 'excel', 'pdf', 'print'],
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
     });
 
 
@@ -82,6 +98,7 @@ function loadreservations(statut,pont,date){
                     oui = '';
 
                     if(response[j+4] == 1){			//1=en attente
+<<<<<<< HEAD
 						if(response[j+6] == 1)
 							// non = (typuser==6)?'<button class="btn btn-danger button-reservation" name="'+response[j]+'_3_0" title="Rejeter la réservation" style="color: white;" disabled><i class="mdi mdi-delete"></i></button>':'<button class="btn btn-danger button-reservation" name="'+response[j]+'_3_0" title="Rejeter la réservation" style="color: white;"><i class="mdi mdi-delete"></i></button>'; //&nbsp;Demander
                         	// oui = (typuser==6)?'<button class="btn btn-success button-reservation" name="'+response[j]+'_2_'+response[j+6]+'" title="Affecter un inspecteur à la réservation" style="color: white;" disabled><i class="mdi mdi-lead-pencil"></i></button>':'<button class="btn btn-success button-reservation" name="'+response[j]+'_2_'+response[j+6]+'" title="Affecter un inspecteur à la réservation" style="color: white;"><i class="mdi mdi-lead-pencil"></i></button>'; //&nbsp;Demander
@@ -98,6 +115,18 @@ function loadreservations(statut,pont,date){
                         oui = '<button class="btn btn-warning button-reservation" name="'+response[j]+'_4_'+response[j+6]+'" title="Modifier l\'agent affecté à la réservation" style="color: white;"><i class="mdi mdi-lead-pencil"></i></button>'; //&nbsp;Demander
 
 					}else if(response[j+4] == 4){	//4=avortee
+=======
+						if(response[j+6] == 0)
+							non = '<button class="btn btn-danger button-reservation" name="'+response[j]+'_3_'+response[j+6]+'" title="Rejeter la réservation" style="color: white;"><i class="mdi mdi-delete"></i></button>'; //&nbsp;Demander
+                        oui = '<button class="btn btn-success button-reservation" name="'+response[j]+'_2_'+response[j+6]+'" title="Affecter un inspecteur à la réservation" style="color: white;"><i class="mdi mdi-lead-pencil"></i></button>'; //&nbsp;Demander
+                    }else if(response[j+4] == 2){	//2=annulee
+						non = '';
+						oui = '';
+                    }else if(response[j+4] == 3){	//3=affectee
+                        non = '<button class="btn btn-dark button-reservation" name="'+response[j]+'_5_'+response[j+6]+'" title="Annuler l\'affectation de l\'inspecteur à la réservation" style="color: white;"><i class="mdi mdi-cancel"></i></button>'; //&nbsp;Demander
+                        oui = '<button class="btn btn-warning button-reservation" name="'+response[j]+'_4_'+response[j+6]+'" title="Modifier l\'agent affecté à la réservation" style="color: white;"><i class="mdi mdi-lead-pencil"></i></button>'; //&nbsp;Demander
+                    }else if(response[j+4] == 4){	//4=avortee
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 						non = '';
 						oui = '';
 					}else if(response[j+4] == 5){	//5=rejetee
@@ -106,18 +135,29 @@ function loadreservations(statut,pont,date){
                     }
 
                     $('.table-reservations').DataTable().row.add([
+<<<<<<< HEAD
 						response[j+7],
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                         response[j+1],//date reservation 
                         '<span class="text-'+((response[j+2]==1)?'success':'danger')+'">'+PlageHoraire(response[j+2])+'</span>',//plage horaire 
                         '<b>'+response[j+3]+'</b>',//pont
                         '<label class="badge badge-'+statuscolor(response[j+4])+'" style="border-radius: 5px;height: 20px;padding-top: 3px">'+statusname(lang,response[j+4])+'</label> ',
                         response[j+5],//inspecteur
+<<<<<<< HEAD
 						//ajouter le 12-06-2023
 						non, //desactive les bouttons si l'utilisateur est un superviseur
 						oui,
                         '<button class="btn btn-info button-reservation" name="'+response[j]+'_1" title="Voir le détails de la réservation" style="color: white;"><i class="mdi mdi-magnify-plus"></i></button>' //&nbsp;details
                     ]).columns.adjust().draw(false);
                     j += 8;
+=======
+ 						non,
+						oui,
+                        '<button class="btn btn-info button-reservation" name="'+response[j]+'_1" title="Voir le détails de la réservation" style="color: white;"><i class="mdi mdi-magnify-plus"></i></button>' //&nbsp;details
+                    ]).columns.adjust().draw(false);
+                    j += 7;
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                 }//END FOR
             }//ENF IF
         },//END SUCCES
@@ -162,7 +202,12 @@ $('.table-reservations').on('click','.button-reservation', function(){
 					//AFFECTATION
 					}else if(id[1]==2 || id[1]==4){
 
+<<<<<<< HEAD
 						loadformaffect('table-reservations',id,response);						
+=======
+						loadformaffect('table-reservations',id,response);
+						
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 					}
 				}//FIN SI LE STATUT N'A PAS CHANGE
 

@@ -3,7 +3,11 @@
     Date creation : 18-05-2021
     Auteur : Cellule SOLAS - ABRS
     Version:1.0
+<<<<<<< HEAD
     Derniè modification : 18-05-2021
+=======
+    Dernière modification : 18-05-2021
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
     Dernier modificateur : Cellule SOLAS - ABRS
     Description: Activation/Desactivation, Modification,Ajout d'un inspecteur
 */
@@ -11,6 +15,7 @@
 
 	include('../config/Connexion.php');
 	include_once('../functions/Date_function.php');
+<<<<<<< HEAD
 	include_once('../functions/Log_function.php');
 
 	function Activation($bdd,$id,$statut,$ville,$affecteur,$motif){
@@ -19,6 +24,15 @@
 		$req1=$bdd->exec($query);
 		$tab[0]=($req1?0:"Erreur liéàa base de donné");
 		logger($bdd, $affecteur, $statut==0?-1:0, 4,$id , $motif);
+=======
+
+	function Activation($bdd,$id,$statut,$ville,$affecteur){
+
+		$query="UPDATE Inspecteur SET STATUT='".(1-$statut)."' WHERE IDENTIFIANT='".$id."' AND STATUT='".$statut."'";
+		$req1=$bdd->exec($query);
+		$tab[0]=($req1?0:"Erreur liée à la base de données");
+
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 	return $tab;
 	}
 	
@@ -31,19 +45,31 @@
 		$surname = (isset($_POST['prenoms'])?$_POST['prenoms']:''); 
 		$city = (isset($_POST['ville'])?$_POST['ville']:''); 
 		$born = (($_POST['naissance']!='')?"'".datesitetoserver($_POST['naissance'])."'":null); 
+<<<<<<< HEAD
 		$mail = (isset($_POST['mail'])?$_POST['mail']:''); 
 		$perso = (isset($_POST['telephone'])?$_POST['telephone']:''); 
 		$flotte = (isset($_POST['flotte'])?$_POST['flotte']:''); 
+=======
+		$site = (!empty($_POST['site'])?$_POST['site']:0); 
+		$perso = (isset($_POST['telephone'])?$_POST['telephone']:''); 
+
+		$flotte = (isset($_POST['flotte'])?$_POST['flotte']:''); 
+		$habitation = (isset($_POST['habitation'])?$_POST['habitation']:''); 
+		$mail = (isset($_POST['mail'])?$_POST['mail']:''); 
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		$contrat = (isset($_POST['contrat'])?$_POST['contrat']:0); 
 		$diplome = (isset($_POST['diplome'])?$_POST['diplome']:''); 
 		$niveau = (isset($_POST['niveau'])?$_POST['niveau']:''); 
 
+<<<<<<< HEAD
 		$city = (isset($_POST['ville'])?$_POST['ville']:''); 
 		$quartier = (!empty($_POST['quartier'])?$_POST['quartier']:0); 
 		$habitation = (isset($_POST['habitation'])?$_POST['habitation']:''); 
 		$gps = (isset($_POST['gps'])?$_POST['gps']:''); 
 		$site = (!empty($_POST['site'])?$_POST['site']:0); 
 
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		$query="SELECT * FROM Inspecteur WHERE IDENTIFIANT<>".$id." AND MATRICULE='".$matr."'"; 
 		$result=$bdd->query($query);
 		$i=0;
@@ -96,7 +122,10 @@
 				CONTACT_FLOTTE='".str_replace("'","''",$flotte)."',LIEU_HABITATION='".str_replace("'","''",$habitation)."',
 				DIPLOME='".str_replace("'","''",$diplome)."',CONTRAT='".$contrat."',DATE_NAISSANCE=".(($born==null)?"NULL":$born).",
 				EMAIL='".str_replace("'","''",$mail)."',NIVEAU_ETUDE='".str_replace("'","''",$niveau)."',
+<<<<<<< HEAD
 				QUARTIER=".$quartier.",COORDON_GPS='".str_replace("'","''",$gps)."',
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 				SITE_AFFECTATION=".$site.",CONTACT_PERSO='".str_replace("'","''",$perso)."' WHERE IDENTIFIANT='".$id."'";
 				$bdd->exec($modif);
 
@@ -112,21 +141,35 @@
 		$matr = (isset($_POST['matricule'])?$_POST['matricule']:''); 
 		$name = (isset($_POST['nom'])?$_POST['nom']:''); 
 		$surname = (isset($_POST['prenoms'])?$_POST['prenoms']:''); 
+<<<<<<< HEAD
 		$city = (isset($_POST['ville'])?$_POST['ville']:''); 
 		$born = (($_POST['naissance']!='')?"'".datesitetoserver($_POST['naissance'])."'":null); 
 		$mail = (isset($_POST['mail'])?$_POST['mail']:''); 
 		$perso = (isset($_POST['telephone'])?$_POST['telephone']:''); 
 		$flotte = (isset($_POST['flotte'])?$_POST['flotte']:''); 
+=======
+		$city = (isset($_POST['ville'])?$_POST['ville']:$ville); 
+		$born = (($_POST['naissance']!='')?"'".datesitetoserver($_POST['naissance'])."'":null); 
+		$site = (!empty($_POST['site'])?$_POST['site']:0); 
+		$perso = (isset($_POST['telephone'])?$_POST['telephone']:''); 
+
+		$flotte = (isset($_POST['flotte'])?$_POST['flotte']:''); 
+		$habitation = (isset($_POST['habitation'])?$_POST['habitation']:''); 
+		$mail = (isset($_POST['mail'])?$_POST['mail']:''); 
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		$contrat = (isset($_POST['contrat'])?$_POST['contrat']:0); 
 		$diplome = (isset($_POST['diplome'])?$_POST['diplome']:''); 
 		$niveau = (isset($_POST['niveau'])?$_POST['niveau']:''); 
 
+<<<<<<< HEAD
 		$city = (isset($_POST['ville'])?$_POST['ville']:''); 
 		$quartier = (!empty($_POST['quartier'])?$_POST['quartier']:0); 
 		$habitation = (isset($_POST['habitation'])?$_POST['habitation']:''); 
 		$gps = (isset($_POST['gps'])?$_POST['gps']:''); 
 		$site = (!empty($_POST['site'])?$_POST['site']:0); 
 
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		$query="SELECT * FROM Inspecteur WHERE MATRICULE='".$matr."'"; 
 		$result=$bdd->query($query);
 		$i=0;
@@ -155,13 +198,21 @@
 				{
 
 				$insert="INSERT INTO Inspecteur(STATUT,MATRICULE,NOM,PRENOMS,VILLE,CONTACT_FLOTTE,LIEU_HABITATION,
+<<<<<<< HEAD
 				DIPLOME,CONTRAT,DATE_NAISSANCE,EMAIL,NIVEAU_ETUDE,SITE_AFFECTATION,CONTACT_PERSO,COORDON_GPS,
 				QUARTIER,DATE_CREATION)";
+=======
+				DIPLOME,CONTRAT,DATE_NAISSANCE,EMAIL,NIVEAU_ETUDE,SITE_AFFECTATION,CONTACT_PERSO,DATE_CREATION)";
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 				$insert.=" VALUES(".$actif.",'".str_replace("'","''",$matr)."','".str_replace("'","''",$name)."',
 				'".str_replace("'","''",$surname)."',".$city.",'".str_replace("'","''",$flotte)."',
 				'".str_replace("'","''",$habitation)."','".str_replace("'","''",$diplome)."','".$contrat."',
 				".(($born==null)?"NULL":$born).",'".str_replace("'","''",$mail)."','".str_replace("'","''",$niveau)."',
+<<<<<<< HEAD
 				".$site.",'".str_replace("'","''",$perso)."','".str_replace("'","''",$gps)."',".$quartier.",
+=======
+				".$site.",'".str_replace("'","''",$perso)."',
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 				'".date("Y-m-d H:i:s")."')";
 				$bdd->exec($insert);
 
@@ -177,7 +228,11 @@
 	}
 	
 	if($_POST['action-id']==3)
+<<<<<<< HEAD
 		$tab=Activation($bdd,$_POST['confirmation-id'],$_POST['statut'],$_SESSION['VILLE'],$_SESSION['ID_UTIL'],$_POST['motif']);
+=======
+		$tab=Activation($bdd,$_POST['confirmation-id'],$_POST['statut'],$_SESSION['VILLE'],$_SESSION['ID_UTIL']);
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 	elseif($_POST['action-id']==2)
 		$tab=Modification($bdd,$_SESSION['VILLE'],$_SESSION['ID_UTIL']);
 	elseif($_POST['action-id']==0)
@@ -188,4 +243,8 @@
     echo json_encode($tab);
 
 
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643

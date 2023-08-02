@@ -29,10 +29,16 @@
                     <table class="table table-hover table-reservations" width="100%">
                       <thead>
                         <tr>
+<<<<<<< HEAD
                           <th>Bloqué</th>
                           <th>Date</th>
                           <th>Plage</th>
 						  <th>Pont</th>
+=======
+                          <th>Date</th>
+                          <th>Plage</th>
+						              <th>Pont</th>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                           <th>Statut</th>
                           <th>Inspecteur</th>
                           <th>Non</th>
@@ -50,7 +56,10 @@
                           <td></td>
                           <td></td>
                           <td></td>
+<<<<<<< HEAD
                           <td></td>
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                         </tr>
                        </tbody>
                     </table>

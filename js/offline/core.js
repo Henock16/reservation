@@ -43,11 +43,14 @@ function statuscolor(id) {
 return statuscolor[id];
 }
 
+<<<<<<< HEAD
 function villecolor(id) {
 	var villecolor=['','orange','blue'];
 return villecolor[id];
 }
 
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 function statusname(lang,id) {
 	var statusname=["","En attente","Annulee","Affectee","Avortee","Rejetee"];
 return statusname[id];
@@ -79,7 +82,11 @@ return connex[id];
 }
 
 function TypeUser(id){
+<<<<<<< HEAD
 	var type=['','Administrateur','Opéteur','Super admin','Agent DRH','Agent DFC','Superviseur'];
+=======
+	var type=['','Administrateur','Opérateur','Super admin','Agent DRH'];
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 return type[id];
 }
 
@@ -140,8 +147,11 @@ function loadselect(table,model,list,selected){
 				}
 				if(model=='Get_structures_model')
 					options += "<option value=\"0\" style=\"font-weight:bold;\">AJOUTER UNE NOUVELLE STRUCTURE</option>";
+<<<<<<< HEAD
 				if(model=='Get_quartiers_model')
 					options += "<option value=\"0\" style=\"font-weight:bold;\">AJOUTER UN NOUVEAU QUARTIER</option>";
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 				
 				$(list).html(options);
 			}
@@ -199,8 +209,11 @@ function loadform(id,action,statut,table,nom,response){
 			Champ('select','.form-'+table,'site',(action==0)?'':response[13],'SITE D\'AFFECTATION','Get_ponts_model');
 			Champ('input','.form-'+table,'diplome',(action==0)?'':response[14],'',0);
 			Champ('input','.form-'+table,'niveau',(action==0)?'':response[15],'',0);			
+<<<<<<< HEAD
 			Champ('select','.form-'+table,'quartier',(action==0)?'':response[16],'QUARTIER','Get_quartiers_model');
 			Champ('input','.form-'+table,'gps',(action==0)?'':response[17],'',0);
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		}else if(table=='pont'){
 			Champ('radio','.form-'+table,'statut',(action==0)?0:response[2],(action==0)?'0':'',0);
 			Champ('input','.form-'+table,'niveau',(action==0)?'':response[3],'',0);
@@ -209,14 +222,20 @@ function loadform(id,action,statut,table,nom,response){
 			Champ('input','.form-'+table,'nom',(action==0)?'':response[6],'',0);
 			Champ('select','.form-'+table,'struct',(action==0)?'':response[7],'STRUCTURE','Get_structures_model');
 			Champ('radio','.form-'+table,'ville',(action==0)?ville:response[8],((typuser==3)?'':ville),0);
+<<<<<<< HEAD
 			Champ('select','.form-'+table,'quartier',(action==0)?'':response[14],'QUARTIER','Get_quartiers_model');
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 			Champ('input','.form-'+table,'localisation',(action==0)?'':response[9],'',0);
 			Champ('input','.form-'+table,'gps',(action==0)?'':response[10],'',0);
 			Champ('input','.form-'+table,'nomresp',(action==0)?'':response[11],'',0);
 			Champ('input','.form-'+table,'foncresp',(action==0)?'':response[12],'',0);
 			Champ('input','.form-'+table,'contresp',(action==0)?'':response[13],'',0);
 		}else if(table=='user'){
+<<<<<<< HEAD
 			Champ('radio','.form-'+table,'bloque',(action==0)?0:response[17],(action==0)?'0':'',0);
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 			Champ('radio','.form-'+table,'statut',(action==0)?0:response[2],(action==0)?'0':'',0);
 			Champ('radio','.form-'+table,'connex',(action==0)?0:response[3],(action==0)?'0':'',0);
 			Champ('select','.form-'+table,'type',(action==0)?0:response[4],((typuser==3)?'':3),'');
@@ -266,9 +285,12 @@ function loadform(id,action,statut,table,nom,response){
 		}else if(table=='structure'){
 			$('.form-'+table+' input[name="origine"]').val(statut);
 			Champ('input','.form-'+table,'nom',(action==0)?'':response[0],'',0);
+<<<<<<< HEAD
 		}else if(table=='quartier'){
 			$('.form-'+table+' input[name="origine"]').val(statut);
 			Champ('input','.form-'+table,'nom',(action==0)?'':response[0],'',0);
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		}
 
 	$('#submit-'+table+'').css('display',(action==1)?'none':'block');
@@ -298,6 +320,7 @@ $('.form-confirmation').on('submit', function(e){
 
 	e.preventDefault();
 
+<<<<<<< HEAD
 	if($('.form-confirmation input[name="statut"]').val()==0)
 		Motivation("","Veuillez saisir le motif");
 	else
@@ -329,6 +352,9 @@ $('.form-motivation').on('submit', function(e){
 
 function setconfirmation(origin,motif){
 	
+=======
+
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 	if($('.form-confirmation input[name="model"]').val()==1){
 		$('#modal-confirmation').modal('hide');
 		triggeraction(1,$('.form-confirmation input[name="table"]').val(),0);
@@ -336,18 +362,27 @@ function setconfirmation(origin,motif){
 		
 		showloader() ;
 
+<<<<<<< HEAD
 		var postdata = $('.form-confirmation').serialize();
+=======
+		var postdata = $(this).serialize();
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 
 		$.ajax({
 
 			url: './models/'+$('.form-confirmation input[name="model"]').val()+'.php',
 			type: 'POST',
+<<<<<<< HEAD
 			data: postdata+'&motif='+motif,
+=======
+			data: postdata,
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 			dataType: 'json',
 			success : function(response){
 
 				hideloader();
 				
+<<<<<<< HEAD
 				triggeraction(0,$('.form-confirmation input[name="table"]').val(),response);
 
 				if(origin==1){
@@ -356,6 +391,11 @@ function setconfirmation(origin,motif){
 				}
 				$('#modal-confirmation').modal('hide');
 				$('.form-confirmation')[0].reset();
+=======
+				$('#modal-confirmation').modal('hide');
+
+				triggeraction(0,$('.form-confirmation input[name="table"]').val(),response);
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 
 			},//SUCCESS
 			error: function(jqXHR, status, error) {
@@ -364,7 +404,11 @@ function setconfirmation(origin,motif){
 			}//ERROR
 		});//AJAX
 	}		
+<<<<<<< HEAD
 }
+=======
+});
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 //*/
 
 function triggeraction(type,action,response){
@@ -373,7 +417,11 @@ function triggeraction(type,action,response){
 		window.open(action);	
 	}else if(action=="recapitulatif"){//generation du PDF du Recapitulatif
 		if(response[0]==0)
+<<<<<<< HEAD
 			Confirmation(0,0,1,1,response[3],"Le PDF du récapitulatif des affectations a été généré et envoyé par mail. \nVoulez-vous l'ouvrir?");		
+=======
+			Confirmation(0,0,0,1,response[3],"Le PDF du récapitulatif des affectations a été généré et envoyé par mail. \nVoulez-vous l'ouvrir?");		
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		else if(response[0]==1)
 			mssg(lang,13,"Il n'y a aucune réservation d'inspecteur."); 
 		else if(response[0]==2)

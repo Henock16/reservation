@@ -10,13 +10,21 @@
 	session_start();
 
 	include('../config/Connexion.php');
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 	include_once('../functions/Date_function.php');
 	include_once('../functions/Table_value_function.php');
 
 	function GetInspecteurs($bdd,$ville,$iduser){
 						  
+<<<<<<< HEAD
 		$query="SELECT * FROM Inspecteur WHERE STATUT='0' ".(($ville>0 && $_SESSION['TYPE_COMPTE']!=3)?"
+=======
+		$query="SELECT * FROM Inspecteur WHERE IDENTIFIANT>'0' ".(($ville>0 && $_SESSION['TYPE_COMPTE']!=3)?"
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		AND VILLE='".$ville."'":"")." ORDER BY NOM,PRENOMS ";
 		$result=$bdd->query($query);
 
@@ -35,7 +43,11 @@
 			$tab[$i] = $donnees['IDENTIFIANT'];
 			$i++;
 						
+<<<<<<< HEAD
 			$tab[$i] = strtoupper($donnees['NOM']).' '.strtoupper($donnees['PRENOMS']);
+=======
+			$tab[$i] = $donnees['NOM'].' '.$donnees['PRENOMS'];
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 			$i++;
 											
 			$tab[$i] = $donnees['STATUT'];
@@ -64,4 +76,8 @@
     header('Content-type: application/json');
     echo json_encode($tab);
 
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643

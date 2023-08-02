@@ -46,7 +46,11 @@
 		$tab[$i] = $lign['LIBELLE'];
 		$i++;
 		//EXPIRE
+<<<<<<< HEAD
 		$tab[$i] = (($lign['DATE_RESERVATION']<$now ||($lign['DATE_RESERVATION']==$now && $lign['PLAGE_HORAIRE']==1))?0:1);
+=======
+		$tab[$i] = (($lign['DATE_RESERVATION']<$now ||($lign['DATE_RESERVATION']==$now && $lign['PLAGE_HORAIRE']==1))?1:0);
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		$i++;					
 		}
 	$result->closeCursor();	

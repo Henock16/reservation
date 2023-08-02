@@ -2,7 +2,11 @@
  
 function envoimail($destinataire,$sujet,$message,$fichier,$filename)
 	{
+<<<<<<< HEAD
 	global $mail_server,$test_mail,$mail_admin;	
+=======
+	global $mail_server,$test_mail;	
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 
 	$depotmail="";
 	
@@ -32,7 +36,11 @@ function envoimail($destinataire,$sujet,$message,$fichier,$filename)
 				$body .= 'Content-Type: text/html; charset="UTF-8"'.$n;
 				$body .= "Content-Transfer-Encoding: 8bit".$n;
 				$body .= $n;
+<<<<<<< HEAD
 				$body .= 'Bonjour,<br/><br/> '.$message.' <br/><br/>Cordialement<br/><br/><strong><center>Ce mail vous a été envoyé automatiquement. Merci de ne pas y repondre.</center></strong>';
+=======
+				$body .= 'Bonjour,<br/><br/> '.$message.' <br/><br/>Cordialement<br/><br/><strong><center>Ce mail vous a été envoyé automatiquement. Merci de ne pas repondre.</center></strong>';
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 				if($source)
 					{
 					$fich=explode("_",$fichier);
@@ -51,8 +59,13 @@ function envoimail($destinataire,$sujet,$message,$fichier,$filename)
 				$body .= $n.'--'.$boundary.'--'.$n;
 				$body = wordwrap($body, 70);
 
+<<<<<<< HEAD
 				if (!mail(($test_mail?$mail_admin:$destinataire), ($test_mail?"[".$destinataire."] ":"").$sujet, $body, $entetes,$expediteur))		//IPAGE
 //				if (!mail(($test_mail?$mail_admin:$destinataire), ($test_mail?"[".$destinataire."] ":"").$sujet, $body, $entetes,"-f'$expediteur."))	//SOLAS & NSIA
+=======
+				if (!mail(($test_mail?"stephaneabro@cci.ci":$destinataire), ($test_mail?"[".$destinataire."] ":"").$sujet, $body, $entetes,$expediteur))		//IPAGE
+//				if (!mail(($test_mail?"stephaneabro@cci.ci":$destinataire), ($test_mail?"[".$destinataire."] ":"").$sujet, $body, $entetes,"-f'$expediteur."))	//SOLAS & NSIA
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 					$depotmail=("Echec d'envoi du  mail '".$sujet."' à {".$destinataire."}");
 				}
 			else

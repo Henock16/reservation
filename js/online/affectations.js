@@ -10,9 +10,15 @@ $(document).ready(function(){
         language: {'url': 'vendors/datatables/French.json'},
         pageLength: nbaffect,
         columnDefs: [
+<<<<<<< HEAD
              { "visible": false, "targets": 0 },
         ],
  	});
+=======
+             { "visible": false, "targets": 0 }
+        ]
+	});
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 
 });
 //END FUNCTION
@@ -20,10 +26,16 @@ $(document).ready(function(){
 
 function loadformaffect(table,id,response){
 	
+<<<<<<< HEAD
 	$('#modal-affectation-title').html(((id[1]==2)?'<i class="mdi mdi-lead-pencil"></i>&nbsp; Affectation d\'un inspecteur':'<i class="mdi mdi-lead-pencil"></i>&nbsp; Modification de l\'Affectation')+((response[2]!="")?" ["+response[2]+"]":""));
 	$('#modal-affectation-header').css("background-color",(id[1]==2)?'lightgreen':'orange');
 
 	$('.form-affectation input[name="statut"]').val(id[2]);
+=======
+	$('#modal-affectation-title').html((id[1]==2)?'<i class="mdi mdi-lead-pencil"></i>&nbsp; Affectation d\'un inspecteur':'<i class="mdi mdi-lead-pencil"></i>&nbsp; Modification de l\'Affectation');
+	$('#modal-affectation-header').css("background-color",(id[1]==2)?'lightgreen':'orange');
+
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 	$('.form-affectation input[name="action-id"]').val(id[1]);
 	$('.form-affectation input[name="reservation-id"]').val(id[0]);
 	$('.form-affectation input[name="table"]').val(table);
@@ -34,6 +46,7 @@ function loadformaffect(table,id,response){
 		$('#submit-affectation').prop('disabled',true);
 		$('#inspectors_affectations').css('display','none');
 	}
+<<<<<<< HEAD
 
 	$('#nom-pont').html(response[3]);
 							
@@ -42,6 +55,14 @@ function loadformaffect(table,id,response){
 	for(var i = 0; i < response[0]; i++){
 		list += "<option value=\""+response[j]+"\" "+((response[j]==response[1])?"selected=\"selected\"":"")+">"+response[j+1]+((response[j+4]!="")?" ["+response[j+4]+"]":"")+" | "+((response[j+2]<10)?"&nbsp;&nbsp;":"")+""+((response[j+2]==null)?"0 ":response[j+2]+" ")+"hr | "+((response[j+3]<10)?"&nbsp;&nbsp;":"")+""+response[j+3]+" affect | </option>";							
 		j += 5;
+=======
+							
+	var j = 2;
+	var list = "<option value=\"\" selected=\"selected\">&lt;SELECTIONNER L'INSPECTEUR A AFFECTER&gt;</option>";
+	for(var i = 0; i < response[0]; i++){
+		list += "<option value=\""+response[j]+"\" "+((response[j]==response[1])?"selected=\"selected\"":"")+">"+response[j+1]+" | "+((response[j+2]=="")?"pas d'":response[j+2]+" ")+"heure"+((response[j+2]>1)?"s":"")+" d'affectation cette semaine</option>";							
+		j += 3;
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 	}
 	$('.form-affectation select[name="inspecteur-id"]').html(list);
 
@@ -118,7 +139,11 @@ $('.table-inspect-affect').on('click','.button-inspect-affect', function(){
 
     if(id[1]==5){
 		
+<<<<<<< HEAD
 		Confirmation(id[0],id[1],id[2],'Cancel_reject_model',"table-inspect-affect","Voulez-vous vraiment annuler cette affectation?");		
+=======
+	Confirmation(id[0],id[1],id[2],'Cancel_reject_model',"table-inspect-affect","Voulez-vous vraiment annuler cette affectation?");		
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 	}
 });//ONCLICK
 
@@ -134,6 +159,7 @@ $('.form-affectation').on('submit', function(e){
 ///*
 $('#submit-affectation').on('click', function(e){
 
+<<<<<<< HEAD
 	if($('.form-affectation input[name="action-id"]').val()==4 || $('.form-affectation input[name="statut"]').val()==0)
 		Motivation("affectation","Quel est le motif de cette réaffectation?");
 	else
@@ -143,6 +169,8 @@ $('#submit-affectation').on('click', function(e){
 
 function setaffectation(origin,motif){
 	
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 	showloader() ;
 
     var postdata = $('.form-affectation').serialize();
@@ -151,12 +179,17 @@ function setaffectation(origin,motif){
 
 		url: './models/Set_affectation_model.php',
 		type: 'POST',
+<<<<<<< HEAD
 		data: postdata+"&motif="+motif,
+=======
+		data: postdata,
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		dataType: 'json',
 		success : function(response){
 
 			hideloader();
 
+<<<<<<< HEAD
 			if(response[0]==3)
 				mssg(lang,12,"Impossible d'affecter '"+response[1]+"' car "+nuits+" nuit"+((nuits>1)?"s":"")+" "+((nuits>1)?"d'affilé":"")+" d'affectation entraine"+((nuits>1)?"nt":"")+" un repos le jour suivant.");
 			else if(response[0]==2)
@@ -165,10 +198,21 @@ function setaffectation(origin,motif){
 				mssg(lang,12,"Impossible d'affecter '"+response[1]+"' !\n\n"+"Il est déja affecté sur \'"+response[2]+"\' à la même date et plage horaire.");
 			else if(response[0]==0){
 				
+=======
+			if(response[0]==2)
+				mssg(lang,12,"Impossible d'affecter '"+response[1]+"' !\n\n"+"Il a été affecté sur '"+response[2]+"' pour l"+((response[5]==1)?'a journée':((response[5]==2)?'a nuit':((response[5]==3)?"'après-midi":'')))+" du "+response[3]+".");
+			else if(response[0]==1)
+				mssg(lang,12,"Impossible d'affecter '"+response[1]+"' !\n\n"+"Il est déja affecté sur \'"+response[2]+"\'.");
+			else if(response[0]==0){
+				
+				$('#modal-affectation').modal('hide');
+				
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 				if($('.form-affectation input[name="table"]').val()=='table-reservations')
 					trigereservations();
 				else
 					trigeraffectations();
+<<<<<<< HEAD
 
 				if(origin==1){
 					$('#modal-motivation').modal('hide');
@@ -177,6 +221,8 @@ function setaffectation(origin,motif){
 				$('#modal-affectation').modal('hide');
 				$('.form-affectation')[0].reset();
 				
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 			}else
 				mssg(lang,11,response[0]); 
 		},//SUCCESS
@@ -185,4 +231,9 @@ function setaffectation(origin,motif){
 			mssg(lang,10,error);
 		}//ERROR
 	});//AJAX
+<<<<<<< HEAD
 }
+=======
+});
+//*/
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643

@@ -21,7 +21,10 @@ include_once('views/offline/Users_modal_new_password.php') ;
 include_once('views/offline/Users_modal_suggestion_partial.php') ;
 include_once('views/offline/Users_modal_forgotten_password.php') ;
 include_once('views/offline/Users_modal_confirmation.php') ;
+<<<<<<< HEAD
 include_once('views/modals/Annonce_modal.php') ;
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 ?>
 
     <!-- base:js -->
@@ -58,14 +61,23 @@ include_once('views/modals/Annonce_modal.php') ;
 	<script src="js/offline/suggestion.js"></script>
 	<script src="js/offline/forgotten-password.js"></script>
 	<script src="js/offline/deconnection.js"></script>
+<<<<<<< HEAD
 	<script src="js/online/info.js"></script>
 
 	
 	 
+=======
+
+	<script src="js/online/recapitulatif.js"></script>
+	<script src="js/info.js"></script>
+	<script src="js/mail.js"></script>
+	<script src="js/online/reservation-submit.js"></script> 
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 
     <!-- End custom js for this page-->
 <?php
 
+<<<<<<< HEAD
 
 
 include_once('./config/Connexion.php');
@@ -86,6 +98,36 @@ default:
 	echo '<script src="js/online/reservation-submit.js"></script>'; 
 }
 
+=======
+// switch($page)
+// {
+// case 'reserv';
+// 	echo '<script src="js/online/reservations.js"></script>'; 
+// 	break;
+// case 'ponts';
+// 	echo ''; 
+// 	break;
+// default:
+// 	echo '<script src="js/online/reservations.js"></script>'; 
+// }
+
+switch($page)
+{
+case 'factur';
+	echo '<script src="js/online/facturation.js"></script>'; 
+	break;
+case 'x';
+	echo ''; 
+	break;
+default:
+	echo '<script src="js/online/facturation.js"></script>'; 
+}
+
+
+
+include_once('./config/Connexion.php');
+
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 	echo "<script type='text/javascript' >
 
             var nbreserv=".$nbreserv.";
@@ -97,8 +139,11 @@ default:
             var idutil=".$_SESSION['ID_UTIL'].";
             var typuser=".$_SESSION['TYPE_COMPTE'].";
             var ville=".$_SESSION['VILLE'].";
+<<<<<<< HEAD
             var accord=".$_SESSION['ACCORD'].";
             var bloque=".$_SESSION['BLOQUE'].";
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                      	
     		function actualiser(){
     			var x = 1;
@@ -152,8 +197,15 @@ default:
 										
 		</script>";
 
+<<<<<<< HEAD
 
 ?>
 
   </body>
 </html>
+=======
+?>
+
+  </body>
+</html>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643

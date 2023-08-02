@@ -78,14 +78,24 @@
 					
 					//AGENT
 					if($donnees['STATUT']==3){				
+<<<<<<< HEAD
 						$affect=getvalue($bdd,'IDENTIFIANT,INSPECTEUR,USER,DATE_CREATION','Affectation','RESERVATION',$donnees['IDENTIFIANT']);
 						$agent=getvalue($bdd,'NOM,PRENOMS','Inspecteur','IDENTIFIANT',$affect[1]);						
 						$user=getvalue($bdd,'LOGIN,STRUCTURE','User','IDENTIFIANT',$affect[2]);						
+=======
+						$affect=getvalue($bdd,'INSPECTEUR,USER','Affectation','RESERVATION',$donnees['IDENTIFIANT']);
+						$agent=getvalue($bdd,'NOM,PRENOMS,DATE_CREATION','Inspecteur','IDENTIFIANT',$affect[0]);						
+						$user=getvalue($bdd,'LOGIN,STRUCTURE','User','IDENTIFIANT',$affect[1]);						
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 					}
 					$tab[$i] = (($donnees['STATUT']==3)?$agent[0].' '.$agent[1]:'');
 					$i++;
 					
+<<<<<<< HEAD
 					$tab[$i] = (($donnees['STATUT']==3)?dateservertosite(substr($affect[3],0,10))." à ".substr($affect[3],11,2)."h".substr($affect[3],14,2):'');
+=======
+					$tab[$i] = (($donnees['STATUT']==3)?dateservertosite(substr($agent[2],0,10))." à ".substr($agent[2],11,2)."h".substr($agent[2],14,2):'');
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 					$i++;
 					
 					$tab[$i] = (($donnees['STATUT']==3)?$user[0]:'');
@@ -109,4 +119,8 @@
     header('Content-type: application/json');
     echo json_encode($tab);
 
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643

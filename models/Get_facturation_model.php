@@ -21,7 +21,11 @@
 		$debut=datesitetoserver($debut);
 		$fin=datesitetoserver($fin);
 
+<<<<<<< HEAD
 		global $nbdays,$tarif; //0=nb jr off / >0=nb de jr / -1=infini
+=======
+		global $nbdays; //0=nb jr off / >0=nb de jr / -1=infini
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		$datelimite=date('Y-m-d',strtotime(($nbdays?"-".$nbdays:LastDay($bdd,"-"))." days"));
 					  
 		$query = "SELECT Reservation.IDENTIFIANT, Reservation.DATE_RESERVATION, Reservation.DATE_CREATION, ";
@@ -49,6 +53,7 @@
 		$i=0;
 	    $tab[$i] = $reponse -> rowCount();
 	    $i++;
+<<<<<<< HEAD
 
 	    $tab[$i] = $reponse -> rowCount();
 	    $i++;
@@ -57,6 +62,10 @@
 	    $i++;
 		
 		$nb=0;
+=======
+		$nb=0;
+
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		while ($donnees = $reponse->fetch()){
 			
 			$dateres=$donnees['DATE_RESERVATION'];
@@ -103,8 +112,11 @@
 		$reponse->closeCursor();
 
 		$tab[0] = $nb;
+<<<<<<< HEAD
 		$tab[1] = number_format($nb,0,"",".");
 		$tab[2] = number_format($nb*$tarif,0,"",".");
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 
 	return $tab;
 	}

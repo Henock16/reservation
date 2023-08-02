@@ -69,6 +69,7 @@
 
 					$tab[$i] = (($donnees['NIVEAU_ETUDE']==null)?'':$donnees['NIVEAU_ETUDE']);
 					$i++;					
+<<<<<<< HEAD
 
 					$tab[$i] = $donnees['QUARTIER'];
 					$i++;
@@ -76,6 +77,8 @@
 					$tab[$i]=(($donnees['COORDON_GPS']==null)?'':$donnees['COORDON_GPS']);
 					$i++;
 
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 			}
 		$reponse->closeCursor();		  
 

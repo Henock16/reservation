@@ -44,7 +44,11 @@
 				$result['7'] = $data['FONCTION_RESPO'];
 				$result['8'] = str_replace(" ","",$data['CONTACT_RESPO']);
 				
+<<<<<<< HEAD
 				$query = $bdd -> prepare("SELECT * FROM Email WHERE STATUT=0 AND USER=".$data['IDENTIFIANT']);
+=======
+				$query = $bdd -> prepare("SELECT * FROM Email WHERE STATUT=0 AND IDENTIFIANT=".$data['IDENTIFIANT']);
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 				$query -> execute();
 				$mails='';
 				while($data = $query -> fetch())
@@ -72,8 +76,11 @@
 				$_SESSION['DERNIERE_ACTION'] = time();
 				$_SESSION['derniere_connexion'] = $data['DERNIERE_CONNEXION'];
 				$_SESSION['last_page'] = $data['LAST_PAGE'];
+<<<<<<< HEAD
 				$_SESSION['ACCORD'] = $data['ACCORD'] ;
 				$_SESSION['BLOQUE'] = $data['BLOQUE'] ;
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 				$result['1'] = $_SESSION['last_page'] ;
 				
 				$id=$data['IDENTIFIANT'];

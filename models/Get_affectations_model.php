@@ -21,13 +21,21 @@
 		$debut=datesitetoserver($debut);
 		$fin=datesitetoserver($fin);
 
+<<<<<<< HEAD
 		global $nbdays,$tarif; //0=nb jr off / >0=nb de jr / -1=infini
+=======
+		global $nbdays; //0=nb jr off / >0=nb de jr / -1=infini
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		$datelimite=date('Y-m-d',strtotime(($nbdays?"-".$nbdays:LastDay($bdd,"-"))." days"));
 					  
 		$query = "SELECT Reservation.IDENTIFIANT, Reservation.DATE_RESERVATION, Reservation.DATE_CREATION, ";
 		$query .= "Reservation.SITE, Reservation.USER, Reservation.PLAGE_HORAIRE, Reservation.STATUT, ";
 		$query .= "Affectation.INSPECTEUR, ";
+<<<<<<< HEAD
 		$query .="Site.LIBELLE,Site.STRUCTURE AS SITE_STRUCTURE,Site.VILLE,User.LOGIN,User.STRUCT AS OPERATEUR_STRUCTURE ";
+=======
+		$query .="Site.LIBELLE,Site.STRUCTURE AS SITE_STRUCTURE,Site.VILLE,User.LOGIN,User.STRUCTURE AS OPERATEUR_STRUCTURE ";
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		$query .="FROM Reservation LEFT JOIN Site ON (Reservation.SITE = Site.IDENTIFIANT) ";
 		$query .="LEFT JOIN User ON (Reservation.USER = User.IDENTIFIANT) ";
 		$query .="LEFT JOIN Affectation ON (Reservation.IDENTIFIANT = Affectation.RESERVATION)";
@@ -49,6 +57,7 @@
 		$i=0;
 	    $tab[$i] = $reponse -> rowCount();
 	    $i++;
+<<<<<<< HEAD
 		
 	    $tab[$i] = $reponse -> rowCount();
 	    $i++;
@@ -58,6 +67,10 @@
 		
 		$nb=0;
 		$nbf=0;
+=======
+		$nb=0;
+
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		while ($donnees = $reponse->fetch()){
 			
 			$dateres=$donnees['DATE_RESERVATION'];
@@ -66,7 +79,10 @@
 			
 			if($fact==='' || $bill==$fact){
 				$nb++;
+<<<<<<< HEAD
 				$nbf+=(1-$bill);
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 				
 				$tab[$i] = $donnees['IDENTIFIANT'];
 				$i++;
@@ -90,8 +106,12 @@
 				$i++;
 				
 				//USER
+<<<<<<< HEAD
 				$struct = getvalue($bdd,'LIBELLE','Structure','IDENTIFIANT',$donnees['OPERATEUR_STRUCTURE']);
 				$tab[$i] = $struct[0];
+=======
+				$tab[$i] = $donnees['LOGIN'];
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 				$i++;
 							
 				//VILLE
@@ -106,8 +126,11 @@
 		$reponse->closeCursor();
 
 		$tab[0] = $nb;
+<<<<<<< HEAD
 		$tab[1] = number_format($nb,0,"",".");
 		$tab[2] = number_format($nbf*$tarif,0,"",".");
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 
 	return $tab;
 	}

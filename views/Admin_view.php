@@ -25,9 +25,12 @@ case 'ferie';
 case 'extract';
 	include('views/pages/Extract_view.php'); 
 	break;
+<<<<<<< HEAD
 case 'matrice';
 	include('views/pages/Super_view.php'); 
 	break;
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 default:
 	include('views/pages/Affect_view.php');
 }

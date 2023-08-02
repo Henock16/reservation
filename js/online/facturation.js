@@ -11,6 +11,7 @@ $(document).ready(function(){
                 }
 		},
         dom: 'Bfrtip',
+<<<<<<< HEAD
 		buttons: [{extend:'copyHtml5',text:'Copier',titleAttr: 'Copier le contenu du tableau'},
 				  {extend:'csv',text:'CSV',titleAttr: 'Télécharger le tableau au format CSV'},
 				  {extend:'excel',text:'Excel',titleAttr: 'Télécharger le tableau au format Excel'},
@@ -19,6 +20,12 @@ $(document).ready(function(){
     });
 
 	loadselect('PONT BASCULE / SITE D\'EMPOTAGE','Get_oper_ponts_model','.form-triaffect select[name="pont"]',0);
+=======
+		buttons: ['copy', 'csv', 'excel', 'pdf', 'print'],
+    });
+
+	loadselect('PONT BASCULE / SITE D\'EMPOTAGE','Get_ponts_model','.form-triaffect select[name="pont"]',0);
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 });
 //END FUNCTION
 
@@ -58,15 +65,26 @@ function loadaffectations(factur,debut,fin,pont){
 
             $('.table-affectations').DataTable().clear().draw(false);
 
+<<<<<<< HEAD
 			$('#resultat').html(((debut!="" && fin!="")?"Pour la période du&nbsp;<b>"+debut+"</b>&nbsp;au&nbsp;<b>"+fin+"</b>, v":"V")+"ous avez&nbsp;<b>"+((response[0]>0)?response[1]:"aucune")+"</b>&nbsp;réservation"+((response[0]>1)?"s":"")+" affectée"+((response[0]>1)?"s":"")+", facturée"+((response[0]>1)?"s":"")+""+((response[2]!=0)?" pour un montant total de&nbsp;<b>"+response[2]+" FCFA</b>.":"."));
 
             if(response[0] > 0){
 
                 var j = 3,
+=======
+            if(response[0] > 0){
+
+                var j = 1,
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                     non = '',
                     oui = '';
 
                 for(var i = 0; i < response[0]; i++){
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                    $('.table-affectations').DataTable().row.add([
                         response[j+2],//date reservation 
                         '<span class="text-'+((response[j+3]==1)?'success':'danger')+'">'+PlageHoraire(response[j+3])+'</span>',//plage horaire 

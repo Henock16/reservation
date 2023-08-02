@@ -5,6 +5,7 @@ $(document).ready(function(){
         ordering:  false,
         language: {'url': 'vendors/datatables/French.json'},
         pageLength: nbreserv,
+<<<<<<< HEAD
         columnDefs: [
             { "visible": false, "targets": 0 },
         ],
@@ -19,6 +20,15 @@ $(document).ready(function(){
 				  {extend:'excel',text:'Excel',titleAttr: 'Télécharger le tableau au format Excel'},
 				  {extend:'pdf',text:'PDF',titleAttr: 'Télécharger le tableau au format PDF'},
 				  {extend:'print',text:'Imprimer',titleAttr: 'Imprimer le tableau'}],
+=======
+		createdRow: function( row, data, dataIndex){
+               if( data[1] ==  'JOUR'  ){
+                    $(row).css({"background-color":"#dddd33"});
+                }
+		},
+        dom: 'Bfrtip',
+		buttons: ['copy', 'csv', 'excel', 'pdf', 'print'],
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
     });
 
 
@@ -48,7 +58,10 @@ function loadusers(){
             else if(response[1] > 0){
 
                 var j = 3,
+<<<<<<< HEAD
                     block = '',
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                     reini = '',
                     renou = '',
                     actif = '',
@@ -56,11 +69,14 @@ function loadusers(){
 
                 for(var i = 0; i < response[1]; i++){
    
+<<<<<<< HEAD
 					if(response[j+8]==0)
 						block='<button class="btn btn-dark button-users" name="'+response[j]+'_6_'+response[j+8]+'" title="Bloquer" style="color: white;"><i class="mdi mdi-cancel"></i></button>'; 
 					else
 						block='<button class="btn btn-dark button-users" name="'+response[j]+'_6_'+response[j+8]+'" title="Débloquer" style="color: white;"><i class="mdi mdi-check"></i></button>'; 
 
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
  					renou=((response[j+2]==0 && response[j+3]!=0)?'<button class="btn btn-primary button-users" name="'+response[j]+'_5_'+response[j+2]+'" title="Renouveler la connexion" style="color: white;"><i class="mdi mdi-history"></i></button>':'');
 
  					reini=((response[j+2]==0 && response[j+3]==1)?'<button class="btn btn-secondary button-users" name="'+response[j]+'_4_'+response[j+2]+'" title="Réinitialiser le mot de passe" style="color: white;"><i class="mdi mdi-key"></i></button>':'');
@@ -73,6 +89,7 @@ function loadusers(){
 					modif=((response[j+2]==0)?'<button class="btn btn-warning button-users" name="'+response[j]+'_2_'+response[j+2]+'" title="Modifier" style="color: white;"><i class="mdi mdi-lead-pencil"></i></button>':'');
  
                     $('.table-users').DataTable().row.add([
+<<<<<<< HEAD
 						response[j+8],
                         '<label class="badge bg-'+statuscolor((response[j+2]==0)?3:5)+'" style="color:white;border-radius: 5px;height: 20px;padding-top: 3px">'+Statut(response[j+2])+'</label>',
                         '<label class="badge badge-'+statuscolor(response[j+3])+'" style="border-radius: 5px;height: 20px;padding-top: 3px">'+Connexion(response[j+3])+'</label>',
@@ -82,6 +99,16 @@ function loadusers(){
                         '<label class="badge badge-'+statuscolor(response[j+6])+'" style="border-radius: 5px;height: 20px;padding-top: 3px">'+TypeOperateur(response[j+6])+'</label>',
                         '<span style="color:'+villecolor(response[j+7])+'">'+Ville(response[j+7])+'</span>',
  						'<span style="white-space:nowrap">'+block+' '+actif+' '+modif+' '+renou+' '+reini+'</span>',
+=======
+                        '<label class="badge badge-'+statuscolor((response[j+2]==0)?3:5)+'" style="border-radius: 5px;height: 20px;padding-top: 3px">'+Statut(response[j+2])+'</label>',
+                        '<label class="badge badge-'+statuscolor(response[j+3])+'" style="border-radius: 5px;height: 20px;padding-top: 3px">'+Connexion(response[j+3])+'</label>',
+                        '<label class="badge badge-'+statuscolor(response[j+4])+'" style="border-radius: 5px;height: 20px;padding-top: 3px">'+TypeUser(response[j+4])+'</label>',
+                        '<b>'+response[j+1]+'</b>',
+                        response[j+5],
+                        '<label class="badge badge-'+statuscolor(response[j+6])+'" style="border-radius: 5px;height: 20px;padding-top: 3px">'+TypeOperateur(response[j+6])+'</label>',
+                        '<span class="text-'+statuscolor(response[j+7])+'">'+Ville(response[j+7])+'</span>',
+ 						'<span style="white-space:nowrap">'+actif+' '+modif+' '+renou+' '+reini+'</span>',
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                         '<button class="btn btn-info button-users" name="'+response[j]+'_1_'+response[j+2]+'" title="Détails" style="color: white;"><i class="mdi mdi-magnify-plus"></i></button>' //&nbsp;details
                     ]).columns.adjust().draw(false);
                     j += response[2];
@@ -130,9 +157,15 @@ $('.table-users').on('click','.button-users', function(){
 			}//ERROR
 		});//AJAX
 	
+<<<<<<< HEAD
 	}else if(id[1]==3 || id[1]==4 || id[1]==5 || id[1]==6){
 		
 		Confirmation(id[0],id[1],id[2],'Process_user_model',"table-users","Voulez-vous vraiment "+((id[1]==5)?"renouveler la connexion à":((id[1]==4)?"réinitialiser le mot de passe de":((id[1]==5)?((id[2]==0)?"dés":"")+"activer":((id[2]==0)?"":"dé")+"bloquer")))+" ce compte d\'utilisateur?");
+=======
+	}else if(id[1]==3 || id[1]==4 || id[1]==5){
+		
+		Confirmation(id[0],id[1],id[2],'Process_user_model',"table-users","Voulez-vous vraiment "+((id[1]==5)?"renouveler la connexion à":((id[1]==4)?"réinitialiser le mot de passe de":((id[2]==0)?"dés":"")+"activer"))+" ce compte d\'utilisateur?");
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 	}
 
 });//ONCLICK
@@ -157,7 +190,11 @@ $('.form-user select[name="struct"]').on('change', function(e){
 	
 	if($('.form-user select[name="struct"]').val()==0)
 		loadform(0,0,'user','structure','structure','');
+<<<<<<< HEAD
 	else if($('.form-user input[name="action-id"]').val()==0)
+=======
+	else
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		setlogin($('.form-user select[name="struct"] option:selected').html());
 });
 

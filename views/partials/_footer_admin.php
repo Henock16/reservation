@@ -21,10 +21,13 @@ include_once('views/offline/Users_modal_new_password.php') ;
 include_once('views/offline/Users_modal_suggestion_partial.php') ;
 include_once('views/offline/Users_modal_forgotten_password.php') ;
 include_once('views/offline/Users_modal_confirmation.php') ;
+<<<<<<< HEAD
 include_once('views/offline/Users_modal_motivation.php') ;
 include_once('views/modals/Param_modal.php') ;
 include_once('views/modals/Affect_Except_modal.php');
 include_once('views/modals/Matrice_modal.php');
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 ?>
 
     <!-- base:js -->
@@ -63,26 +66,39 @@ include_once('views/modals/Matrice_modal.php');
 	<script src="js/offline/deconnection.js"></script>
 
 	<script src="js/online/recapitulatif.js"></script>
+<<<<<<< HEAD
 	<script src="js/online/affectexcept.js"></script>
 	<script src="js/online/matrice.js"></script>
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 
     <!-- End custom js for this page-->
 <?php
 
 switch($page)
 {
+<<<<<<< HEAD
 case 'affect';
+=======
+case 'reserv';
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 	echo '<script src="js/online/reservations.js"></script>'; 
 	echo '<script src="js/online/affectations.js"></script>'; 
 	break;
 case 'inspect';
 	echo '<script src="js/online/inspecteurs.js"></script>'; 
+<<<<<<< HEAD
 	echo '<script src="js/online/quartiers.js"></script>'; 
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 	break;
 case 'ponts';
 	echo '<script src="js/online/ponts.js"></script>'; 
 	echo '<script src="js/online/structures.js"></script>'; 
+<<<<<<< HEAD
 	echo '<script src="js/online/quartiers.js"></script>'; 
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 	break;
 case 'user';
 	echo '<script src="js/online/utilisateurs.js"></script>'; 
@@ -95,9 +111,12 @@ case 'extract';
 	echo '<script src="js/online/extractions.js"></script>'; 
 	echo '<script src="js/online/affectations.js"></script>'; 
 	break;
+<<<<<<< HEAD
 case 'super';
 	echo ''; 
 	break;
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 default:
 	echo '<script src="js/online/reservations.js"></script>'; 
 	echo '<script src="js/online/affectations.js"></script>'; 
@@ -112,7 +131,10 @@ include_once('./config/Connexion.php');
             var session=".round($deconnect/60).";
             var mpdf=".$mpdf.";
             var lang=".$lang.";
+<<<<<<< HEAD
             var nuits=".$nuits.";
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
             var uploadrep=\"".$uploadrep."\";
             var idutil=".$_SESSION['ID_UTIL'].";
             var typuser=".$_SESSION['TYPE_COMPTE'].";

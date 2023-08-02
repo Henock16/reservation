@@ -222,10 +222,13 @@ function mssg(lang,id,param){
         mssg=[1,"Un problème est survenu lors du changement du mot de passe :\n" + bug,""];
     else if(id==28)
         mssg=[1,"Une erreur est survenue lors du changement du mot de passe :\n" + cnx,""];
+<<<<<<< HEAD
     else if(id==29)
         mssg=[1,"Un problème est survenu lors du chargement des données du mois passé:" + bug,""];
     else if(id==30)
         mssg=[1,"Une erreur est survenue lors du chargement des données du mois passé: \n" + cnx,""];
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 
 
     var title=["Attention !","Désolé !","Félicitations !"];

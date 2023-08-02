@@ -20,6 +20,7 @@
 							<select class="form-control col-sm-2" name="user" style="float:left;height:30px;padding-right:5px;padding-top:5px;margin-left:5px;">
 							</select>
 							
+<<<<<<< HEAD
 							<button type="submit" id="submit-affectations" class="btn btn-success" style="float:left;height:30px;padding-left:5px;padding-right:5px;padding-top:5px;margin-left:5px;width:40px;color:white"><i class="mdi mdi-magnify-plus"></i></button>
 						</div>
 					</form>
@@ -29,11 +30,21 @@
 						</div>
 					<hr color="green" size="3" noshade />
                     <div class="table-responsive">
+=======
+							<button type="submit" id="submit-affectations" class="btn btn-success col-sm-1" style="float:left;height:30px;padding-left:5px;padding-right:5px;padding-top:5px;margin-left:5px;">Rechercher</button>
+						</div>
+					</form>
+					<hr color="green" size="3" noshade />
+                   <div class="table-responsive">
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                     <table class="table table-hover table-affectations" width="100%">
                       <thead>
                         <tr>
                           <th>Facturé</th>
+<<<<<<< HEAD
                           <th>Demandeur / Pont</th>
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                           <th>Date</th>
                           <th>Plage</th>
 						  <th>Pont</th>
@@ -55,7 +66,10 @@
                           <td></td>
                           <td></td>
                           <td></td>
+<<<<<<< HEAD
                           <td></td>
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                         </tr>
                        </tbody>
                     </table>

@@ -24,6 +24,10 @@
 	<!-- endinject -->
   </head>
   <body onclick="actualiser();">
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 	<div id="loader"></div>
 	<div id="bgpage"></div>
 
@@ -59,6 +63,13 @@
                     <img src="<?php echo (file_exists('images/faces/face'.$_SESSION['ID_UTIL'].'.jpg')?'images/faces/face'.$_SESSION['ID_UTIL'].'.jpg':'images/faces/face0.png'); ?>" alt="profile"/>
                   </a>
                   <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+<<<<<<< HEAD
+=======
+                      <a class="dropdown-item">
+                        <i class="mdi mdi-settings text-warning"></i>
+                        Paramètres
+                      </a>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                       <a class="dropdown-item" href="#" id="logout" title="Quitter l'application en toute sécurité">
                         <i class="mdi mdi-logout text-danger"></i>
                         Déconnexion
@@ -92,11 +103,19 @@
               <li class="nav-item">
                   <a href="index.php?p=factur" class="nav-link bg-<?php echo(($page=='factur')?'dark':'white');?>">
                     <i class="mdi mdi-file-document-box menu-icon text-<?php echo(($page=='factur')?'white':'dark');?>">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>
+<<<<<<< HEAD
                     <span class="menu-title text-<?php echo(($page=='factur')?'white':'dark');?>">Etat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+=======
+                    <span class="menu-title text-<?php echo(($page=='factur')?'white':'dark');?>">Facturation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                     <i class="menu-arrow"></i>
                   </a>
               </li>
             </ul>
         </div>
       </nav>
+<<<<<<< HEAD
     </div>
+=======
+    </div>
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643

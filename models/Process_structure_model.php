@@ -18,7 +18,11 @@
 		$id = (isset($_POST['structure-id'])?$_POST['structure-id']:''); 
 		$nom = (!empty($_POST['nom'])?$_POST['nom']:''); 
 
+<<<<<<< HEAD
 		$query="SELECT * FROM Structure WHERE IDENTIFIANT<>".$id." AND LIBELLE='".str_replace("'","''",strtoupper($nom))."'"; 
+=======
+		$query="SELECT * FROM Structure WHERE IDENTIFIANT<>".$id." AND LIBELLE='".$nom."'"; 
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		$result=$bdd->query($query);
 		$i=0;
 		$exist="";
@@ -44,7 +48,11 @@
 	
 		$nom = (!empty($_POST['nom'])?$_POST['nom']:''); 
 
+<<<<<<< HEAD
 		$query="SELECT * FROM Structure WHERE LIBELLE='".str_replace("'","''",strtoupper($nom))."'"; 
+=======
+		$query="SELECT * FROM Structure WHERE LIBELLE='".$nom."'"; 
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 		$result=$bdd->query($query);
 		$i=0;
 		$exist="";

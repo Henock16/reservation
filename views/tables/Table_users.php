@@ -10,7 +10,10 @@
                     <table class="table table-hover table-users" width="100%">
                       <thead>
                         <tr>
+<<<<<<< HEAD
                           <th>Bloqué</th>
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                           <th>Statut</th>
 						  <th>Connnexion</th>
                           <th>Type</th>
@@ -33,7 +36,10 @@
                           <td></td>
                           <td></td>
                           <td></td>
+<<<<<<< HEAD
                           <td></td>
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                         </tr>
                        </tbody>
                     </table>

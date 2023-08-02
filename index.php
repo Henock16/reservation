@@ -21,8 +21,11 @@
 			include_once('controllers/Oper.php');
 		elseif($_SESSION['TYPE_COMPTE'] == 4 || $_SESSION['TYPE_COMPTE'] == 5)
 			include_once('controllers/Drh.php');		
+<<<<<<< HEAD
 		elseif($_SESSION['TYPE_COMPTE'] == 6)
 			include_once('controllers/Super.php');
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 	}else{
 		//Redirection de l'utilisateur non authentifié vers la page d'authentification
 		$_SESSION = array();

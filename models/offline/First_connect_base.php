@@ -24,10 +24,13 @@
 	}
 	
 
+<<<<<<< HEAD
 	$reponse = $bdd->prepare("UPDATE Email SET STATUT=1 WHERE USER=:id ");
 	$reponse -> bindParam(':id', $id, PDO::PARAM_INT);
 	$reponse -> execute();
 
+=======
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 	$j = 0;
 	while($j < $_POST['t2']){
 		$mail = $_POST["mail".$j];

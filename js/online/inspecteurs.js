@@ -11,11 +11,15 @@ $(document).ready(function(){
                 }
 		},
         dom: 'Bfrtip',
+<<<<<<< HEAD
 		buttons: [{extend:'copyHtml5',text:'Copier',titleAttr: 'Copier le contenu du tableau'},
 				  {extend:'csv',text:'CSV',titleAttr: 'Télécharger le tableau au format CSV'},
 				  {extend:'excel',text:'Excel',titleAttr: 'Télécharger le tableau au format Excel'},
 				  {extend:'pdf',text:'PDF',titleAttr: 'Télécharger le tableau au format PDF'},
 				  {extend:'print',text:'Imprimer',titleAttr: 'Imprimer le tableau'}],
+=======
+		buttons: ['copy', 'csv', 'excel', 'pdf', 'print'],
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
     });
 
 
@@ -61,10 +65,17 @@ function loadinspecteurs(){
 						modif='';
  
                     $('.table-inspecteurs').DataTable().row.add([
+<<<<<<< HEAD
                         '<center><label class="badge bg-'+statuscolor((response[j+2]==0)?3:5)+'" style="color:white;border-radius: 5px;height:20px;padding-top:3px;">'+Statut(response[j+2])+'</label></center>',
                         response[j+3],
                         '<b>'+response[j+1]+'</b>',
                        '<span style="color:'+villecolor(response[j+4])+'">'+Ville(response[j+4])+'</span> ',
+=======
+                        '<center><label class="badge badge-'+statuscolor((response[j+2]==0)?3:5)+'" style="border-radius: 5px;height:20px;padding-top:3px;">'+Statut(response[j+2])+'</label></center>',
+                        response[j+3],
+                        '<b>'+response[j+1]+'</b>',
+                       '<span class="text-'+statuscolor(response[j+4])+'">'+Ville(response[j+4])+'</span> ',
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                         response[j+5],
  						'<span style="white-space:nowrap">'+actif+' '+modif+'</span>',
                         '<button class="btn btn-info button-inspecteurs" name="'+response[j]+'_1_'+response[j+2]+'" title="Détails" style="color: white;"><i class="mdi mdi-magnify-plus"></i></button>' //&nbsp;details
@@ -126,12 +137,16 @@ $('#new-inspecteur').on('click', function(){
 	loadform(0,0,0,'inspecteur','inspecteur de poids','');
 });
 
+<<<<<<< HEAD
 $('.form-inspecteur select[name="quartier"]').on('change', function(e){
 	
 	if($('.form-inspecteur select[name="quartier"]').val()==0)
 		loadform(0,0,'inspecteur','quartier','quartier','');
 
 });
+=======
+
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
 
 ///*
 $('.form-inspecteur').on('submit', function(e){

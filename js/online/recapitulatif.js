@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(document).ready( function(){
 
 	loadtaux(0);
@@ -146,3 +147,9 @@ $('.form-param').on('submit', function(e){
 	});//AJAX
 
 });//ONSUBMIT
+=======
+$('#recapitulatif').on('click', function(){
+			
+	Confirmation(0,0,0,'Send_recap_model',"recapitulatif","Voulez-vous vraiment envoyer par mail le récapitulatif des affectations?");		
+});//ONCLICK
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643

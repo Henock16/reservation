@@ -9,6 +9,7 @@
     <div class="col-sm-12" style="padding-right: 30px; ">
 									
         <div class="row" style="background-color: #fff;">
+<<<<<<< HEAD
  <!--                       
  									<div class="col-sm-12" style="height: 30px">
 										<marquee width="100%" onmouseout="start()" onmouseover="stop()" class="marquee" height="100%" scrolldelay="30" scrollamount="1" truespeed style="background:#666666; font-family: Source Sans pro, sans-serif;">
@@ -35,11 +36,18 @@
 										</marquee>
 									
 									</div>
+=======
+                        
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
             <div class="col-sm-6 " style="">                                          
                <?php
                 include_once('Reserv_submit_view.php')
                ?>
+<<<<<<< HEAD
             </div> <!-- col-sm-6  -->                                                                         
+=======
+            </div> <!-- col-sm-5  -->                                                                         
+>>>>>>> 686f7821902170a957ef7e43867a07ae1e40e643
                                         
             <div class="col-sm-6 container2" id="scroll" style="border: solid 0px #C2C2C2; padding-left:0px; padding-right:15px ; height: 100%;overflow: hidden;vertical-align: bottom; ">
                <?php
