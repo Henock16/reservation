@@ -2,6 +2,7 @@
 include_once('Date_function.php');
 include_once('../functions/Table_value_function.php');
 include_once('../functions/Complete_function.php');
+include_once('../functions/Isdayofrest_function.php');
 
 function WeekList($mois){
 	

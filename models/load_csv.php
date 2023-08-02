@@ -3,6 +3,7 @@
     include_once('../functions/Isdayofrest_function.php');
     include('../config/Connexion.php');
     include('../functions/Table_value_function.php');
+    include_once('../functions/Isdayofrest_function.php');
     include_once('../functions/Complete_function.php');
 
 
@@ -272,7 +273,7 @@
                         $entete.=addchmp('Chef de Service Pesage');
                         $entete.=addchmp(' Chef de Departement Pesage');
                         $entete.=addchmp('DGISC');
-                        $entete.=addchmp(' DARH');
+                        $entete.=addchmp('DARH');
 		
 			
             if (!$handle = fopen($filename,'w'))
